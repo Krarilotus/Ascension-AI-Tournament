@@ -35,8 +35,43 @@ Unser Wunsch ist es, dass die KIs nicht nur **sehr gut funktionieren** und mit d
 
 ## III. Turnierablauf
 
-Das Turnier findet anfänglich im klassischen **[Schweizer System](https://de.wikipedia.org/wiki/Schweizer_System)** statt.
-Es wird 2 Runden im best of 3 Format geben
+
+### Spielplan
+__Einleitungsphase:__ Es wird eine Einführungsrunde geben, in der alle KIs in einer Kurzvorstellung gezeigt werden, bevor das eigentliche Turnier stattfindet.
+
+__Phase 1:__ Das Turnier findet anfänglich im klassischen **[Schweizer System](https://de.wikipedia.org/wiki/Schweizer_System)** statt. Es wird mindestens **zwei Runden Schweizer System** zur grundlegenden Einordnung der KIs geben. Die genaue Anzahl steigt mit der Anzahl der teilnehmenden KIs.  
+
+__Phase 2:__ Es schließt sich eine Runde **[Jeder gegen Jeden](https://en.wikipedia.org/wiki/Deathmatch_)** an, und anschließend **zwei Runden 2 vs. 2**. Dabei werden für jede der Runden die Teams anhand der aktuellen Punkte aus der Tabelle gematched: Der erste mit dem Letzten, der Zweite mit dem Vorletzten, usw..
+
+__Abschlussphase:__ Zum Abschluss kommt eine finale Runde **1 vs. 1** nach **[Schweizer System](https://de.wikipedia.org/wiki/Schweizer_System)** Verteilung.
+
+### Punkteverteilung
+**Siegpunkte:**  
+Für **1 vs. 1** und **2 vs. 2** Spiele werden pro KI nach Spielausgang folgende **Siegpunkte (SP)** ausgeschüttet:
+| Gewinn | Unentschieden | Verloren |
+|---|---|---|
+| 2 SP | 1 SP | 0 SP |
+
+Im Free for all werden für die Platzierung die folgenden SP ausgeschüttet:
+| Platz 1 | Platz 2 | Platz 3 | Platz 4 |
+|---|---|---|---|
+| 3 SP | 2 SP | 1 SP | 0 SP |
+
+
+**Bonuspunkte:**  
+Weiterhin gibt es die folgenden Bonus Challenges für die einzelnen Phasen, welche zu Sieg-Punkten equivalenten, aber nicht Matchmaking beeinflussenden, **Bonuspunkte (BP)**:  
+
+__Einleitungsphase:__ Es gibt einen BP die drei KIs, deren Vorstellungsvideo die meisten Likes bekommen haben.
+
+__Phase 1:__ Für jede dieser Challenges gibt es für die **besten N KIs** in jeder der Kategorien je einen Punkt, wobei **N die Anzahl der Runden** dieser Phase ist.
+- **Chefkoch:** Die meiste Nahrung in einem einzigen Spiel produziert
+- **First Blood:** In den wenigsten Monaten nach Spielstart den Gegner umgebracht.
+- **Spammer:** In einem Spiel das größte Verhältnis $\frac{\text{Anzahl Rekrutierte Truppen}}{\text{Erwirtschaftetes Gold}}$ 
+- **Raidmaster:** In einem Spiel die meisten Gebäude zerstört.
+- **Showmaster:** Die Ingame-Spieldauer eines Spieles liegt am nächsten am Durchschnitt.
+- **MVP:** Die meisten Truppen in einem Spiel getötet.
+- **Ökofreak:** Am wenigsten Holzbretter in einem Spiel produziert.
+- **Opferlamm:** Die meisten Gebäude in der gesamten Phase verloren.
 
 
 
