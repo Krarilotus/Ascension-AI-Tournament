@@ -35,6 +35,7 @@ Unser Wunsch ist es, dass die KIs nicht nur **sehr gut funktionieren** und mit d
 
 ## III. Turnierablauf
 
+Spiele enden immer spätestens nach 50 Jahren, was in einem Unentschieden resultiert!
 
 ### Spielplan
 __Einleitungsphase:__ Es wird eine Einführungsrunde geben, in der alle KIs in einer Kurzvorstellung gezeigt werden, bevor das eigentliche Turnier stattfindet.
@@ -53,27 +54,53 @@ Für **1 vs. 1** und **2 vs. 2** Spiele werden pro KI nach Spielausgang folgende
 | 2 SP | 1 SP | 0 SP |
 
 Im Free for all werden für die Platzierung die folgenden SP ausgeschüttet:
-| Platz 1 | Platz 2 | Platz 3 | Platz 4 |
+| Platz 1 | Platz 2 | Platz 3 | Platz 4 | Unendschieden
 |---|---|---|---|
-| 3 SP | 2 SP | 1 SP | 0 SP |
+| 3 SP | 2 SP | 1 SP | 0 SP | 
 
 
 **Bonuspunkte:**  
 Weiterhin gibt es die folgenden Bonus Challenges für die einzelnen Phasen, welche zu Sieg-Punkten equivalenten, aber nicht Matchmaking beeinflussenden, **Bonuspunkte (BP)**:  
-
-__Einleitungsphase:__ Es gibt einen BP die drei KIs, deren Vorstellungsvideo die meisten Likes bekommen haben.
 
 __Phase 1:__ Für jede dieser Challenges gibt es für die **besten N KIs** in jeder der Kategorien je einen Punkt, wobei **N die Anzahl der Runden** dieser Phase ist.
 - **Chefkoch:** Die meiste Nahrung in einem einzigen Spiel produziert
 - **First Blood:** In den wenigsten Monaten nach Spielstart den Gegner umgebracht.
 - **Spammer:** In einem Spiel das größte Verhältnis $\frac{\text{Anzahl Rekrutierte Truppen}}{\text{Erwirtschaftetes Gold}}$ 
 - **Raidmaster:** In einem Spiel die meisten Gebäude zerstört.
-- **Showmaster:** Die Ingame-Spieldauer eines Spieles liegt am nächsten am Durchschnitt.
 - **MVP:** Die meisten Truppen in einem Spiel getötet.
 - **Ökofreak:** Am wenigsten Holzbretter in einem Spiel produziert.
+- **Hinterlistig:** in einem Spiel die größte Differenz aus  
+    `(Truppen des Gegners gestorben) - (Eigene getötete Truppen)`
 - **Opferlamm:** Die meisten Gebäude in der gesamten Phase verloren.
+- **Showmaster:** Die Ingame-Spieldauer eines Spieles liegt am nächsten am Durchschnitt für die Phase.
 
+__Phase 2:__ Für jede dieser Challenges gibt es für die **besten N KIs bzw. Teams** in jeder der Kategorien je einen Punkt, wobei **N die Anzahl der Runden** ist, die diese Kategorie betrifft. Außerdem gilt für Einzelspielziele aus **Phase 1**, dass diese **einmalig** für Rekordüberbietung erneut vergeben werden! 
+- **Martyrer:** (2 vs. 2) als erste KI am frühsten gestorben in gewonnenen Spielen.
+- **Einsiedler:** (2 vs. 2) Kleinste gemeinsame Bevölkerung aller gewinnenden Teams und aller verlierenden Teams (Achtung: Jeweils nur ein BP pro KI pro Team in der Phase vergeben).
+- **Teamwork:** (2 vs 2) Das Verhältnis $\frac{\text{produzierte Truppen KI 1}}{\text{produzierte Truppen KI 2}}$ beider KIs am nächsten an 1 in einem Spiel.
+- **Gebäudeinstanthaltung:** (2 vs 2) Höchstes positives Ergebnis im Spiel für die Differenz aus:  
+  `gesamte zerstörte Gebäude - gesamte verlorene Gebäude`
+- **Punching Bag:** (FFA) Am längsten aller Spiele durchhalten aber im eigenen Spiel zuerst sterben.
+- **Abstauber:** (FFA) Am wenigsten Truppen gebaut und trotzdem gewonnen.
+- **King of Dust:** (FFA) Die höchste Differenz aus  
+  `Kronen - Kills`.  
+  (Bei Gleichstand mehrfach vergeben!)
+- **Minimalist:** Beste (minimale) Bilanz $\frac{\text{produzierten harten Ressourcen (Stein, Eisen, Pech)}}{\text{Spielzeit}}$ über die gesamte Phase.
+- **Suicide:** Frühster Tod des Lords abseits des Bergfrieds.
+- **Headhunter:** Insgesamt in der Phase meiste Kills gesammelt. Bei Gleichstand zählt die akkumulierte Ingamezeit für alle Kills.
 
+__Abschlussphase:__
+Hier geht es nochmal um Alles! Jedes der Kriterien wird nach Abschluss aller KI Kämpfe gewertet.
+- **Ascended:** Am meisten Ascension Points (siehe unten) übrig nach Turnierende.
+- **Kingslayer:** Ein einzelnes Spiel mit dem größten Punkterückstand gewonnen.
+(Wird bei Gleichstand mehrfach vergeben!)
+- **Superstar:** Aus Ausgewählten Highlights vom Publikum gewählt (YouTube Poll). Dies ehrt das krasseste Highlight des Turniers.
+- **Extase:** Es gibt einen BP für die drei KIs, deren Vorstellungsvideo die meisten Likes bekommen haben.
+- **Rekordbrecher V2:** Bestehende Rekorde der 7 Einzelkriterien aus **Phase 1** dürfen erneut für einen BP gebrochen werden.
+- **Krösus:** Meistes über alle Phasen hinweg akkumuliertes Gesamtgold.
+- **Game of Thrones:** Meiste über alle Phasen akkumulierte Kronen.
+- **The Joker:** Größter Sprung der Gesamtplatzierung zwischen Ende von Phase 1 und Abschlussphase, wird nach allem anderen vergeben.
+- **Topf der Gier:** Bestes (maximales) Verhältnis aus $\frac{\text{Bonuspunkte}}{\text{Siegpunkte}}$
 
 
 ## IV. Sonderregeln: Ascension Points (APs)
