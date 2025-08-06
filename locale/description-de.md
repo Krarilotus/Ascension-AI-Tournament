@@ -117,6 +117,7 @@ Es werden jede Runde (10 x Anzahl der teilnehmenden KIs) APs ausgeschüttet. Die
 - Die für die im Video **gezeigten KIs** ausgeschütteten **APs** entsprechen dann dem Verhältnis `WT / GWT`.
 - Beispiel: Die Watchtime für ein Video ist `WT = 100h` und die gesamte Watchtime aller Videos der Runde entspricht `GWT = 1000h`. Bei 20 teilnehmenden KIs bekommen die beiden KIs aus dem Video für diese Runde jeweils (100 / 1000) x (10 x 20) = 20 AP.
 
+Die Optionen für Änderungen sind:  
 - **[0] Hotfixes (kostenlos):** **Hotfixes** sind frei, z. B. bei **Pathfinding-Problemen**, schlecht gesetzten **AIC-Parametern** oder zum **Hinzufügen von Häusern**.
 - **[1] Einheitenanzahl anpassen (10 AP):** **Anzahl** eines bestehenden **Einheitenslots** um bis zu 10 verändern (bei Belagerungsgeräten nur 1).
 - **[2] Neuen Einheitenslot hinzufügen (15 AP):** Einen **neuen Einheitenslot** mit bestehender Einheit hinzufügen (bis zu 10 Einheiten).

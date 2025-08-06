@@ -475,10 +475,82 @@ config-sparse:
         menu:
           contents:
             suggested-value:
+              rat:
+                - name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
               snake:
                 - name: ApeX-AI-Snake
                   root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
                   control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              pig:
+                - name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              wolf:
+                - name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              saladin:
+                - name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              caliph:
+                - name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              sultan:
+                - name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
                     aic: true
                     aiv: true
                     lord: true
@@ -545,6 +617,320 @@ config-sparse:
                   name: ApeX-AI-Snake
                   root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
                   active: true
+          rat:
+            binks:
+              contents:
+                suggested-value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Savine
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Savine/
+                  active: true
+          pig:
+            binks:
+              contents:
+                suggested-value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Hyäne
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Hyaene/
+                  active: true
+          wolf:
+            binks:
+              contents:
+                suggested-value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Emira
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Emira/
+                  active: true
+          saladin:
+            binks:
+              contents:
+                suggested-value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Jeanne d'Arc
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Jeanne/
+                  active: true
+          caliph:
+            binks:
+              contents:
+                suggested-value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Kirito Kun
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Kirito/
+                  active: true
+          sultan:
+            binks:
+              contents:
+                suggested-value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: (no)made
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+    maploader:
+      config:
+        disable-game-maps:
+          contents:
+            suggested-value: false
+        disable-user-maps:
+          contents:
+            suggested-value: false
+        disable-user-savs:
+          contents:
+            suggested-value: false
+        disable-game-maps-extreme:
+          contents:
+            suggested-value: false
+        extra-map-directory:
+          contents:
+            suggested-value: ucp/plugins/Ascension-AI-Tournament-*/resources/maps
+        extra-map-extreme-directory:
+          contents:
+            suggested-value: ucp/plugins/Ascension-AI-Tournament-*/resources/maps
   plugins:
     Ascension-AI-Balance:
       config: {}

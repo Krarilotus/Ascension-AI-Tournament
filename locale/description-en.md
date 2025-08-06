@@ -118,6 +118,7 @@ Each round, (10 x number of participating AIs) APs will be distributed. The dist
 - The **APs** distributed to the **AIs featured** in the video then correspond to the ratio `WT / GWT`.
 - Example: The watch time for a video is `WT = 100h` and the total watch time of all videos in the round is `GWT = 1000h`. With 20 participating AIs, the two AIs from the video would each receive (100 / 1000) x (10 x 20) = 20 AP for that round.
 
+The exact Options for Changes are:  
 - **[0] Hotfixes (Free):** Hotfixes are free, e.g., for **pathfinding issues**, poorly set **AIC parameters**, or to **add houses**.
 - **[1] Change Unit Count (10 AP):** Change the **number of units** in an existing **unit slot** by up to 10 (only 1 for siege engines).
 - **[2] Add Unit Slot (15 AP):** Add a **new unit slot** with an existing unit type (up to 10 units).
