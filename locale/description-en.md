@@ -1,175 +1,168 @@
-# Stronghold Crusader AI Tournament 2025 - Official Rules & Setup
+# Stronghold Crusader AI Tournament 2025 – Official Rules & Setup
 
-## Overview
+This tournament challenges modders to create compelling AI characters that will compete against each other in various scenarios. Participants submit **a working AI** based on the given conditions:
+- The **Ascension AI Balance** is a defining framework for the entire tournament.
+- The harsh starting conditions typical of **Ascension** (e.g., 0 starting gold) are slightly adjusted for AI standards.
 
-This tournament challenges modders to create compelling AI characters that compete in various scenarios. Participants submit teams of two complementary AIs, which are then evaluated through individual challenges and team-based combat. The goal is to create not only effective AIs but also engaging characters with distinct personalities and strategies, all operating within the framework established by the tournament plugin.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Krarilotus/Ascension-AI-Tournament/refs/heads/main/bootstrap_finaltrans.png"
+       alt="Description"
+       style="max-width:300px; width:100%; display:block; margin:auto;">
+</p>
+
+---
 
 ## I. Setup & Starting Resources
 
-* **Mandatory Plugin:** All participants must install and use the official **AI-Tournament-2025** plugin to create their AIs. This ensures consistent starting conditions and provides necessary files for AI opponents.
-* **Standard Match Resources (Phase 2 - FFA/2v2):** Unless specified otherwise, the **Normal Game** starting conditions are used as configured in the plugin:
-    * Gold: 2000
-    * Wood: 100
-    * Stone: 50
-    * Food: 60 Bread
-* **Note:** The Economic and Defensive Gauntlets in Phase 1 the **Deathmatch** and **Crusader Game** starting conditions respectively, as detailed in Section IV.
+If you've made it this far, you're almost done: To test, create, and submit your AI, you only need the **Ascension-AI-Tournament** plugin. This provides all the necessary settings, and you can test the starting conditions in-game with your AIs. But don't worry, almost all AIs that work well in *Vanilla* also work well in **Ascension**.
 
-## II. Participant Submissions: AI Teams
+For the most important changes, you can read the summary of the **Ascension AI Balance** plugin. If you want to know the exact details, feel free to check out the spreadsheet with all the values:
+- **[Ascension AI Balancesheet](https://docs.google.com/spreadsheets/d/1CyEB7tdixSODzZCHn2xPRCGAScqicDi4k6oUCilch4A/edit?gid=0#gid=0)**
+- **[Vanilla Balance for Comparison](https://docs.google.com/spreadsheets/d/1PdMwVbIfu8c2ebszkSiqlALeZ0YWL_1nHp9TEU10r48/edit?gid=0#gid=0)**
 
-Each participant (or participating duo) must submit a **team of two AI characters**. It is encouraged to fit their AI castles to complete each other on those maps, that provide very close starting locations.
+---
 
-* **Complementary Design:** The two AIs within a team should be designed to complement each other strategically.
-* **Character Assets:** Each *individual* AI character requires:
-    * **At least three unique `.aiv` (AI Village) files**. These multiple `.aiv` files will be autoamtically chosen on the different Skirmish maps based on the map layout by the default AI choice. They must fit in the provided AIV template.
-    * An **`.aic` (AI Character) file**
-    * Unique **portrait, video (`.bik`), lines and speech files**. These assets should portray the character's personality and are integrated using the AI Swapper extension within the UCP.
+## II. Submissions – Choosing the Right Format!
 
-## III. AI Team Restrictions
+To participate in the tournament, you must submit a UCP3-compatible AI. To do this, create an account on **[GitHub](https://www.github.com)** and a repository with the same name as your AI, containing a working plugin with your AI in the **resources/ai** folder.
+Then, send the link to your AI's GitHub repository via Discord to **Xander10alpha** or by email to **shc.aicontest@gmail.com**.
 
-### A. Building & Troop Exclusivity
+You can read about how to create such an AI **[here in the Wiki](https://unofficialcrusaderpatch.com/#wiki/Stronghold-Crusader-Wiki%2FAI-Lords%2FAI-Editing-Tutorial)**. However, our personal recommendation is to just ask for help on the **[Stronghold Modschmiede](https://discord.com/invite/sKtrj9S626)** if you need it, and to use an existing AI from the plugin (under **resources/ai**) as a reference. Happy building! ;)
 
-* **Exclusive Buildings:** Beyond Stockpiles, Granaries, and Houses (which both AIs can build), **all other building types are exclusive between partners**. If one AI builds a specific type of building (e.g., Quarries, High Walls, specific Tower types, Gatehouses, Stairs), its partner AI **cannot** build that same type.
-* **Housing Limit:** The **total** number of houses built by **both** AIs in a team combined cannot exceed **17**.
-* **Exclusive Troop Types:** Troop types are also exclusive between partners. If one AI recruits a specific troop type (e.g., Engineers, Archers, Pikemen), the other AI cannot recruit that type.
-    * *Note:* An AI unable to recruit Engineers cannot build siege engines like catapults or trebuchets.
+It is our wish that the AIs not only **function very well** and can handle the starting conditions. It would be especially desirable if the **AIs also embody their own character**, for example, through a backstory (description), a custom AI portrait, and animated videos & audio files.
 
-### B. Wall Defense Limit ("WallDef")
+Additionally, the following restrictions apply:
+- Maximum of 12 starting troops (from troop types already present in the AIC)
+- Maximum Lord strength of 1.5
+- No unnecessary exploits!
 
-* A team's combined defensive troop presence on walls and towers is limited to **160 WallDef points** total.
-* **Troop Costs:**
-    * Fire Throwers: **6 points** each
-    * Crossbowmen: **3 points** each
-    * Arabian Archers: **2 points** each
-    * European Archers: **1 point** each
-    * Armored Melee (Swordsmen, Pikemen, Knights): **1 point** each
-    * Slingers, Macemen, Assassins, Arabian Swordsmen: **0.5 points** each
-    * Other Non-Armored Melee (Spearmen, Slaves): **0.25 points** each
-* **Defensive Siege Engine Costs (Base):**
-    * Tower-mounted Ballistae/Mangonels: **5 points** each
-    * Ground Fire Ballistae: **5 points** each
-    * Ground Trebuchets: **3 points** each
-* **Escalating Siege Engine Cost:** The cost for defensive siege engines increases cumulatively for the team. The Nth defensive siege engine placed by the team (regardless of type - tower or ground) costs its **Base Cost + (N-1)** points.
-    * *Example:* A team places 2 Ground Fire Ballistae and 3 Tower Ballistae (total 5 defensive siege engines). The *next* defensive siege engine they place, for instance a Ground Trebuchet (base cost 3), would cost 3 + 5 = **8 WallDef points**.
-* **Harassing Siege Engines:** The number of harassing siege engines an AI is allowed to build is limited to the number of *defensive* siege engines it has placed plus 1.
+A sorted preference list of the maps available in the plugin is also mandatory for submission. Each map pick will be honored once during the tournament and then removed from the list. For tiebreaker matches, a random map will be selected.
+***Note:** The maps are not yet in their final state; the list may still be expanded.*
 
-* **Note on WallDef Calculation:** Defense troops recruited by an AI are typically based on the ratios defined in the `.aic` file's defense troop slots. Arbiters may review these ratios. For example, if an AI rarely builds Barracks but fills 7/8 defense slots with Archers and 1/8 with late-game Fire Throwers, tests might show Fire Throwers constitute a higher *actual* percentage of the WallDef points than 1/8 suggests. If testing (e.g., on the economic map) reveals a team significantly exceeds the 120 WallDef budget due to such recruitment timings and ratios, arbiters may adjust the effective WallDef calculation or impose penalties.
+---
 
-### C. Starting Troops Limit
+## III. Tournament Procedure
 
-* Each **team** has a maximum budget of **30 points** (using WallDef costs) for selecting starting troops across both AIs. This budget is configured via the plugin or pre-match setup.
-* **Defensive Challenge Exception:** For the **Defensive Challenge setup only** (Phase 1), the team shares a larger starting troop budget of **150 points**. This budget is used when configuring the starting troops for this specific challenge scenario, even though only one AI runs the challenge at a time.
-* **Escalating Cost for Ranged Units:** Each *ranged* unit added to the starting army selection increases the cost of *subsequent ranged units*. The added cost equals the **sum of the base costs** of all previously added ranged units.
-    * *Example 1:* 2 European Archers (1pt base), 1 Crossbowman (3pt base).
-        * Archer 1: Cost 1. (Running penalty = 0)
-        * Archer 2: Cost 1 (base) + 1 (penalty from Archer 1) = 2. (Running penalty = 1+1 = 2)
-        * Crossbowman 1: Cost 3 (base) + 1 (penalty from Archer 1) + 1 (penalty from Archer 2) = 5.
-        * Total Cost = 1 + 2 + 5 = **8 points**.
-    * *Example 2:* 2 Crossbowmen (3pt base).
-        * Crossbowman 1: Cost 3. (Running penalty = 0)
-        * Crossbowman 2: Cost 3 (base) + 3 (penalty from Crossbowman 1) = 6.
-        * Total Cost = 3 + 6 = **9 points**.
-    * *Example 3:* 2 Arabian Swordsmen (1pt base, melee), 2 Slingers (0.5pt base, ranged), 1 Fire Thrower (6pt base, ranged).
-        * A. Swordsman 1: Cost 1. (Running penalty = 0)
-        * A. Swordsman 2: Cost 1. (Running penalty = 0)
-        * Slinger 1: Cost 0.5. (Running penalty = 0)
-        * Slinger 2: Cost 0.5 (base) + 0.5 (penalty from Slinger 1) = 1. (Running penalty = 0.5 + 0.5 = 1)
-        * Fire Thrower 1: Cost 6 (base) + 0.5 (penalty from Slinger 1) + 0.5 (penalty from Slinger 2) = 7.
-        * Total Cost = 1 + 1 + 0.5 + 1 + 7 = **10.5 points**.
+Matches always end after 50 years at the latest, resulting in a draw!
 
-### D. Exploit Prevention
+### Schedule
+__Introductory Phase:__ There will be an introductory round where all AIs are showcased in a brief presentation before the actual tournament begins.
 
-* No placing troops in unattackable locations.
-* No constructing excessively long or abusive pitch traps.
-* General fair play is expected. Avoid abusing game mechanics, such as building nearly closed gatehouses in hard-to-reach spots, creating moat labyrinths solely for pathfinding abuse, or excessive static pitch usage unrelated to reasonable defense.
+__Phase 1:__ The tournament will initially follow the classic **[Swiss System](https://en.wikipedia.org/wiki/Swiss-system_tournament)**. There will be at least **two Swiss System rounds** to establish a basic ranking of the AIs. The exact number of rounds will increase with the number of participating AIs.
 
-## IV. Tournament Structure
+__Phase 2:__ This is followed by one round of **[Free-for-All (FFA)](https://en.wikipedia.org/wiki/Deathmatch_(gaming))** and then **two rounds of 2 vs. 2**. For each of these rounds, teams will be matched based on the current points from the standings: the first-place AI with the last, the second with the second-to-last, and so on.
 
-The tournament proceeds in two main phases, followed by a subjective judging phase.
+__Final Phase:__ To conclude, there will be a final round of **1 vs. 1** following the **[Swiss System](https://en.wikipedia.org/wiki/Swiss-system_tournament)** distribution.
 
-### Phase 1: Individual AI Gauntlet
+### Point Distribution
+**Victory Points:**
+For **1 vs. 1** and **2 vs. 2** matches, the following **Victory Points (VP)** will be awarded per AI based on the outcome:
+| Win | Draw | Loss |
+|---|---|---|
+| 2 VP | 1 VP | 0 VP |
 
-**This phase tests each AI character individually; the team partner AI is not present.** Scores for each challenge are scaled from 0 to 10, rounded to the nearest integer. Scores are recorded across all challenges for each AI, typically presented together. The scaling is normalized based on performance across all participants in that specific challenge: the best performance receives 10 points, the worst receives 0 points, and others are scored proportionally.
+In Free-for-All (FFA), the following VPs will be awarded based on placement:
+| 1st Place | 2nd Place | 3rd Place | 4th Place | Draw (remaining AIs) |
+|---|---|---|---|---|
+| 3 VP | 2 VP | 1 VP | 0 VP | 2 VP |
 
-* *Normalization Example:* In the Defensive Challenge, the worst AI survived 15 years, while the best survived the full 50 years. An AI surviving 40 years would score: `round(((40 - 15) / (50 - 15)) * 10) = round((25 / 35) * 10) = round(7.14) = 7 points`.
 
-* **Challenge 1: Economic Gauntlet - "The Barren Boom"**
-    * *Objective:* Achieve the highest economic score within the time limit.
-    * *Map:* `ChallengeMap_Eco_v1.map` (Example Name) - Features scarce starting resources.
-    * *Opponents ("Economy Challenge Lords"):* Multiple rich, heavily defended AI opponents ("Fortified Neighbors") who are largely passive but launch small, periodic harassing attacks (especially arsonists) targeting the player AI's economy. Direct assault on them is discouraged.
-    * *Time Limit:* **30 Years** (in-game time).
-    * *Starting Conditions (Based on "Deathmatch Game" setup):* Resources: 400 Gold, 50 Wood, 0 Stone, 30 Food (15 units Bread, 15 units Fruit). Starting troops budget: 20 points (per AI).
-    * *Scoring Parameters:* Score = `(Total Value of Placed Buildings (by cost goods sell price)) + (Total Gold Earned / 5) - (Number of Buildings Lost to Harassment * 10)`.
+**Bonus Points:**
+Additionally, for each phase, there are the following bonus challenges that award **Bonus Points (BP)**. These are equivalent to Victory Points but do not influence matchmaking:
 
-* **Challenge 2: Defensive Gauntlet - "Rampart Resilience"**
-    * *Objective:* Survive the longest against relentless attackers.
-    * *Map:* `ChallengeMap_Def_v1.map` (Example Name) - Features a designated keep area needing fortification, largely surrounded by opponents.
-    * *Opponents:* Aggressive Wolf (by Krarilotus), Lord Stauten (by Monsterfish), Alexios IV (by Nevikov), Apex Marshal (by Xander10alpha), and Emira (by Crusader Pilaw). These AIs start with more gold and apply constant pressure.
-    * *Time Limit:* Max **50 Years** (in-game time), or until the AI's Lord died.
-    * *Starting Conditions (Based on "Crusader Game" setup):* Resources: 1500 Gold, 100 Wood, 100 Stone, 125 Food (50 Bread, 25 Fruit, 25 Cheese, 25 Meat). Starting troops budget: 150 points (shared team budget for setup).
-    * *Scoring Parameters:* Survival time (Years and Months). Reaching the 50-year limit guarantees a high score.
+__Phase 1:__ For each of these challenges, the **top N AIs** of the phase in each category will receive one point, where **N is the number of rounds** in this phase.
+- **Master Chef:** produced the most food in a single match
+- **First Blood:** killed an opponent in the fewest months after the start of a match
+- **Spammer:** achieved the highest ratio of $\frac{\text{Troops Recruited}}{\text{Gold Earned}}$ in a single match
+- **Raidmaster:** destroyed the most buildings in a single match
+- **MVP:** killed the most troops in a single match
+- **Eco-Freak:** produced the fewest wood planks in a single match
+- **Cunning:** achieved the largest difference in a match from:  
+  `(Enemy Troops Died) - (Troops Killed Yourself)`
+- **Sacrificial Lamb:** lost the most buildings accumulated over the entire phase
+- **Showmaster:** had a match duration closest to the average of all matches in this phase
 
-* **Challenge 3: Offensive Gauntlet - "Shatter the Alliance"**
-    * *Objective:* Eliminate all enemy lords as quickly as possible.
-    * *Map:* `ChallengeMap_Off_v1.map` (Example Name) - Features multiple enemy castles with scarce resources, while providing the applicant AI a resource-rich and easily defensible starting position.
-    * *Opponents:* Lord Stauten (by Monsterfish), LotO Pig (by Crusader Pilaw), Alexios IV (by Nevikov), Aggressive Sultan (by Krarilotus), Slave Trader (by Tobbi), Apex Caliph (by Xander10alpha).
-    * *Time Limit:* Max **50 Years** (in-game time), or until all 6 enemy lords are defeated.
-    * *Starting Conditions (Based on "Normal Game" setup):* Resources: 2000 Gold, 100 Wood, 50 Stone, 60 units (Bread). Starting troops budget: 20 points (per AI).
-    * *Scoring Parameters:* Score = `Number of Kills * Sum(10 / Time_to_Kill_N)` for each enemy N killed. Time is measured in years.
-        * *Example:* An AI gets 2 kills, the first after 10 years, the second after 12 years. Score = `2 * ( (10 / 10) + (10 / 12) ) = 2 * (1 + 0.833) = 3.67`. An AI with 0 kills scores 0. Achieving more kills faster yields higher scores.
+__Phase 2:__ For each of these challenges, the **top N AIs or teams** in each category will receive one point, where **N is the number of rounds** this category affects. Furthermore, individual match goals from **Phase 1** can be awarded **once more** for breaking a record!
+- **Martyr:** (2 vs. 2) in a winning match, was the first AI to be defeated
+- **Hermit:** (2 vs. 2) smallest combined population among all winning teams and all losing teams (Note: Only one BP per AI per team will be awarded in this phase).
+- **Teamwork:** (2 vs. 2) had the ratio $\frac{\text{Troops Produced AI 1}}{\text{Troops Produced AI 2}}$ closest to 1 in a single match
+- **Building Maintenance:** (2 vs. 2) highest positive result in a match for the difference of:  
+  `Total Buildings Destroyed - Total Buildings Lost`
+- **Punching Bag:** (FFA) survived the longest of all matches, but died first in their own match
+- **Poacher:** (FFA) built the fewest troops and still won
+- **King of Dust:** (FFA) the highest difference between  
+  `Crowns - Kills`  
+  (Awarded multiple times in case of a tie!)
+- **Minimalist:** best (minimum) balance of $\frac{\text{Hard Resources Produced (Stone, Iron, Pitch)}}{\text{Game Time}}$ over the entire phase
+- **Suicide:** earliest death of the lord outside the keep
+- **Headhunter:** accumulated the most kills in total during the phase. In case of a tie, the accumulated in-game time for all kills will be the tiebreaker.
 
-* **Phase 1 Team Scoring:**
-    * The **team's** score for Phase 1 is calculated by **multiplying** the normalized total scores (0-30) of the two individual AIs.
-    * *Example:* AI 'A' achieves a normalized total of 17 points across the 3 challenges. AI 'B' achieves 18 points. Team score = 17 * 18 = **306 points**.
+__Final Phase:__
+This is the grand finale! Each of these criteria will be evaluated after all AI matches are completed.
+- **Ascended:** has the most Ascension Points (see below) left at the end of the tournament
+- **Kingslayer:** won a single match with the largest point deficit
+(Awarded multiple times in case of a tie!)
+- **Superstar:** chosen by the audience from selected highlights (YouTube Poll). This honors the most epic highlight of the tournament.
+- **Ecstasy:** one BP for each of the three AIs whose introduction video received the most likes
+- **Record Breaker V2:** existing records for the 7 individual criteria from **Phase 1** can be broken again for a BP
+- **Croesus:** most total gold accumulated across all phases
+- **Game of Thrones:** most crowns accumulated across all phases
+- **The Joker:** biggest jump in the overall ranking between the end of Phase 1 and the Final Phase; awarded after everything else
+- **Pot of Greed:** best (maximum) ratio of $\frac{\text{Bonus Points}}{\text{Victory Points}}$
 
-### Phase 2: Team Battles
+The AI with the most VP + BP at the end of the tournament wins!
 
-Teams compete directly against each other using standard match settings (see Section I), managed by the plugin setup. Assumes 8 teams participate.
+## IV. Special Rules: Ascension Points
+**Ascension Points** (APs) can be used during the tournament to make changes to the submitted AIs between rounds. The options can be found in the table below. Changes will be discussed on the **[Stronghold Modschmiede](https://discord.com/invite/sKtrj9S626)** in the AI's forum channel and **must** be accepted by the AI creator to take effect.
 
-* **Format 1: Free-For-All (FFA)**
-    * *Structure:* Two initial 8-player FFAs with random seeding. Top 4 finishers (1st/2nd from each initial FFA) advance to a "Winners' Final FFA". Bottom 4 finishers compete in a "Consolation Final FFA". (4 FFA matches total). Expect intense battles with shifting alliances and potential backstabbing.
-    * *Scoring:* Points awarded based on final placement in the Winners' and Consolation Finals (1st=100, 2nd=90... 8th=30). **Plus 10 points** per enemy AI kill secured by the team in *any* of the four FFA matches.
+Each round, $10 \cdot X$ APs will be distributed, where $X$ is the **number of participating AIs**. The distribution works as follows:
+- Exactly **7 days** after a video goes live, the watch time `WT` **for that video** will be recorded.
+- The total watch time **of all videos** in the round is accumulated into `GWT`.
+- The **APs** distributed to the **AIs featured** in the video then correspond to the ratio $\frac{\text{WT}}{\text{GWT}}$.
+- Example: The watch time for a video is `WT = 100h` and the total watch time of all videos in the round is `GWT = 1000h`. With 20 participating AIs, the two AIs from the video would each receive $\frac{\text{100}}{\text{1000}} \cdot (10 \cdot 20) = 20 AP$ for that round.
 
-* **Format 2: 2v2 Swiss Tournament**
-    * *Structure:* Teams compete in 2v2 matches using a Best-of-3 games format. A 3-round Swiss system is used, with initial seeding based on FFA results. Tests teamwork and adaptability across potentially different maps per round. (12 matches total played: 4 matches per round * 3 rounds).
-    * *Scoring:* **40 points** per Best-of-3 match victory. **+10 points** per *match* awarded to the team with the most combined gold earned across all games played (up to 3) in that specific match-up. **+20 points** per *Swiss round* awarded to the team that destroyed the most buildings *within their specific match* during that round (compared across the 4 matches of the round).
+| Option | (AP) Cost | Description |
+|--------|-------------|--------------|
+| **[0]** | – | **Hotfixes** are free, e.g., for **pathfinding issues**, poorly set **AIC parameters**, or to **add houses**. |
+| **[1]** | 10 | Change the **number of units** in an existing **unit slot** by up to 10 (only 1 for siege engines). |
+| **[2]** | 15 | Add a **new unit slot** with an existing unit type (up to 10 units). |
+| **[3]** | 20 | Introduce a **new unit type** that the AI has not used before. |
+| **[4]** | 4 | Change the number of **AIC economy buildings** by 1. |
+| **[5]** | 8 | Adjust another **AIC parameter**. |
+| **[6]** | 5 | Add or remove an existing **AIV economy building** or 2 **fear factor buildings**. |
+| **[7]** | 10 | Add or remove an existing **AIV castle building** (recruitment, gates, towers) **or** up to 10 sections of wall/moat/killing pit/pitch. |
+| **[8]** | 15 | Introduce (unlock) a new **building type** in the AIV. |
+| **[9]** | 40 | Adjust the **build order**. |
+| **[10]** | 50 | **Increase Lord strength to 2**. |
+| **[11]** | 75 | **Adjust starting troops**, up to a maximum of 15. |
 
-* **Format 3: Sudden Death Gauntlet - "The Tri-Force Trial"**
-    * *Structure:* A challenging multi-stage scenario run individually by each **team**, testing coordination and performance under pressure. Takes place on `ChallengeMap_SuddenDeath_v1.map` (Example Name) featuring distinct zones and pre-placed enemy AI factions. Each team attempts this gauntlet once.
-    * *Setup Overview (Refer to setup image):*
-        * Each team assigns one AI as the 'Defender' and one as the 'Attacker'. The primary goal is to earn 'Trophies' by completing objectives over the 50-year match duration.
-        * There are three enemy factions (totaling five enemy AIs) one of which is a central dummy Sultan. One faction focuses on harassing the applicant team's Defender. Another faction competes with the applicant team's Attacker to kill the Sultan.
-    * *Trophies to Earn (Scoring up to 50 points per category):*
-        * **Aggressive Trophy (Max 50 pts):** Awarded for securing the kill on the Sultan. Points are based on the time taken relative to other teams: the fastest kill gets 50 points, the slowest kill gets 25 points. Failing to kill the Sultan yields 0 points in this category.
-        * **Defensive Trophy (Max 50 pts):** Awarded if the team's Defender survives the full 50 years. Base score for survival is 25 points. Bonus points (up to 25 additional, for a total of 50) are awarded based on the number of enemy troops killed *by the defending AI*, minus the amount of troops killed by the attacking AI. Hence the best Difference gets 25 extra points, the worst 0. 0 Points in total if the defender Ai dies before the 50 years pass.
-        * **Economic Trophy (Max 50 pts):** Calculated at the end of 50 years. Score is based on the team's "Gold per Capita" (`Total Team Gold / Combined Team Population`) compared to the Gold per Capita of the two non-Sultan enemy factions. If the applicant team's ratio is higher than both enemy factions, they score a minimum of 25 points. The larger the difference, the higher the score, up to a maximum of 50 points.
-    * *The Catch:* Before the gauntlet runs, all applicant teams may vote on tactical priorities for the pre-placed enemy factions, choosing from the opponents teams. However, each enemy team can only be chosen once for the different challenger positions, giving the priority for choice to those teams who had the lowest scores so far.
+Adjustments can be made up to one day before the start of a round!
 
-## V. Subjective Judging: Immersion & Storytelling
+__Examples:__
+For example, to replace the melee sortie units (previously 10 spearmen) with 10 monks for an AI that doesn't have a cathedral, the following options are required:  
+[1] Reduce spearmen to 0 (10 AP)  
+[3] Add monks to the repertoire (20 AP)  
+[2] Add a new slot (since Melee Sorties is now 0): 10 monks to Melee Sorties (15 AP)  
+[8] Unlock cathedral (15 AP)  
+[7] Add cathedral to the AIV (10 AP)  
+In total, this would cost **70 AP**.
 
-* **Points:** A total of **1000 points** are allocated based on Caster and Viewer votes.
-* **Criteria:** Votes are cast for the AI team deemed most immersive, well-characterized, and entertaining throughout the *entire* tournament. Considerations include AI personality (as conveyed through assets and behavior), visual design (castles, portrait), voice lines, strategic choices, and overall narrative potential.
-* **Distribution:** The 1000 points are distributed proportionally based on the number of votes each team receives.
+To give an AI a proper bread economy it didn't have before:  
+[4] Increase MaxFarms by 3 (3 $\cdot$ 4 AP)  
+[5] Change Farm Slot 1 and 2 to wheat farms (2 $\cdot$ 8 AP)  
+[6] Add 2 more AIV woodcutter's huts (2 $\cdot$ 5 AP)  
+[8] Unlock mill and bakery (2 $\cdot$ 15 AP)  
+[6] Place one mill and 8 bakeries (9 $\cdot$ 5 AP)  
+In total, this would cost **113 AP**.
 
-## VI. Final Score
+To add a second outer bailey to an AI's castle:  
+[7] Add another large gatehouse with a drawbridge (2 $\cdot$ 10 AP)  
+[7] Place 78 sections of wall or crenelated wall (8 $\cdot$ 10 AP)  
+[7] Add 22 sections of moat (3 $\cdot$ 10 AP)  
+This would amount to a total cost of **130 AP**.
 
-The final tournament ranking is determined by the sum of points earned across all phases.
+## V. Get Involved
 
-### VI.A Example Score Calculation (Hypothetical Team "Alpha")
+[![Stronghold Modschmiede](https://discord.com/api/guilds/738427339746050178/widget.png?style=shield)](https://discord.com/invite/sKtrj9S626)
 
-This example illustrates how a team might score with solid but not perfect performance:
-
-* **Phase 1 (Individual Gauntlet):**
-    * AI Alpha-1 scores: 3 (Eco) + 8 (Def) + 1 (Off) = 12 points (normalized total)
-    * AI Alpha-2 scores: 7 (Eco) + 3 (Def) + 7 (Off) = 17 points (normalized total)
-    * Phase 1 Team Score = 12 * 17 = **204 points**
-* **Phase 2 (Team Battles):**
-    * FFA: Places 4th in Winners' Final (70 pts) + eliminates 4 opponents (4 * 10 = 40 pts) = **110 points**
-    * Swiss: Wins 2/3 matches (2 * 40 = 80 pts), gets 'Most Gold' once (+10 pts), gets 'Most Buildings Destroyed' once (+20 pts) = **110 points**
-    * Sudden Death: Defender survives, gets moderate kills (35 pts Defensive). Team fails to kill Sultan (0 pts Aggressive). Achieves good Gold per Capita relative to opponents (40 pts Economic). Total = 35 + 0 + 40 = **75 points**
-* **Subjective Judging:**
-    * Receives a decent share of votes = **161 points** (out of 1000 total)
-* **Total Score for Team Alpha:** 204 + 110 + 110 + 75 + 161 = **660 points**
-
-*(Note: Scores can vary significantly. Top teams might exceed 1000 points, while others might struggle to break 500. Maximum possible score is 900 (P1) + 220 (FFA) + 210 (Swiss) + 150 (SD) + 1000 (Subj) = 2480 points, which is practically unattainable).*
-
-Good luck to all participants! Ensure the AI Tournament Plugin is correctly installed and configured according to instructions and visual guides.
+Do you also want to help organize, build maps, cast, or simply assist with statistical analysis? Or would you like to sponsor prizes? Apply now as a caster or simply contact **Krarilotus** or **Xander10alpha**. You can find us on **Discord!**
