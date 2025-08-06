@@ -4,11 +4,7 @@ This tournament challenges modders to create compelling AI characters that will 
 - The **Ascension AI Balance** is a defining framework for the entire tournament.
 - The harsh starting conditions typical of **Ascension** (e.g., 0 starting gold) are slightly adjusted for AI standards.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Krarilotus/Ascension-AI-Tournament/refs/heads/main/bootstrap_finaltrans.png"
-       alt="Description"
-       style="max-width:300px; width:100%; display:block; margin:auto;">
-</p>
+![Description](https://raw.githubusercontent.com/Krarilotus/Ascension-AI-Tournament/refs/heads/main/bootstrap_finaltrans.png)
 
 ---
 
@@ -55,16 +51,17 @@ __Phase 2:__ This is followed by one round of **[Free-for-All (FFA)](https://en.
 __Final Phase:__ To conclude, there will be a final round of **1 vs. 1** following the **[Swiss System](https://en.wikipedia.org/wiki/Swiss-system_tournament)** distribution.
 
 ### Point Distribution
-**Victory Points:**
-For **1 vs. 1** and **2 vs. 2** matches, the following **Victory Points (VP)** will be awarded per AI based on the outcome:
-| Win | Draw | Loss |
-|---|---|---|
-| 2 VP | 1 VP | 0 VP |
+**Victory Points:** For **1 vs. 1** and **2 vs. 2** matches, the following **Victory Points (VP)** will be awarded per AI based on the outcome:
+- **Win:** 2 VP
+- **Draw:** 1 VP
+- **Loss:** 0 VP
 
 In Free-for-All (FFA), the following VPs will be awarded based on placement:
-| 1st Place | 2nd Place | 3rd Place | 4th Place | Draw (remaining AIs) |
-|---|---|---|---|---|
-| 3 VP | 2 VP | 1 VP | 0 VP | 2 VP |
+- **1st Place:** 3 VP
+- **2nd Place:** 2 VP
+- **3rd Place:** 1 VP
+- **4th Place:** 0 VP
+- **Draw** (for all remaining AIs): 2 VP
 
 
 **Bonus Points:**
@@ -73,27 +70,27 @@ Additionally, for each phase, there are the following bonus challenges that awar
 __Phase 1:__ For each of these challenges, the **top N AIs** of the phase in each category will receive one point, where **N is the number of rounds** in this phase.
 - **Master Chef:** produced the most food in a single match
 - **First Blood:** killed an opponent in the fewest months after the start of a match
-- **Spammer:** achieved the highest ratio of $\frac{\text{Troops Recruited}}{\text{Gold Earned}}$ in a single match
+- **Spammer:** achieved the highest ratio of (Troops Recruited / Gold Earned) in a single match
 - **Raidmaster:** destroyed the most buildings in a single match
 - **MVP:** killed the most troops in a single match
 - **Eco-Freak:** produced the fewest wood planks in a single match
-- **Cunning:** achieved the largest difference in a match from:  
-  `(Enemy Troops Died) - (Troops Killed Yourself)`
+- **Cunning:** achieved the largest difference in a match from:
+  `(Enemy Troops Died) - (Own Troops Killed)`
 - **Sacrificial Lamb:** lost the most buildings accumulated over the entire phase
 - **Showmaster:** had a match duration closest to the average of all matches in this phase
 
 __Phase 2:__ For each of these challenges, the **top N AIs or teams** in each category will receive one point, where **N is the number of rounds** this category affects. Furthermore, individual match goals from **Phase 1** can be awarded **once more** for breaking a record!
 - **Martyr:** (2 vs. 2) in a winning match, was the first AI to be defeated
 - **Hermit:** (2 vs. 2) smallest combined population among all winning teams and all losing teams (Note: Only one BP per AI per team will be awarded in this phase).
-- **Teamwork:** (2 vs. 2) had the ratio $\frac{\text{Troops Produced AI 1}}{\text{Troops Produced AI 2}}$ closest to 1 in a single match
-- **Building Maintenance:** (2 vs. 2) highest positive result in a match for the difference of:  
+- **Teamwork:** (2 vs. 2) had the ratio (Troops Produced AI 1 / Troops Produced AI 2) closest to 1 in a single match
+- **Building Maintenance:** (2 vs. 2) highest positive result in a match for the difference of:
   `Total Buildings Destroyed - Total Buildings Lost`
 - **Punching Bag:** (FFA) survived the longest of all matches, but died first in their own match
 - **Poacher:** (FFA) built the fewest troops and still won
-- **King of Dust:** (FFA) the highest difference between  
-  `Crowns - Kills`  
+- **King of Dust:** (FFA) the highest difference between
+  `Crowns - Kills`
   (Awarded multiple times in case of a tie!)
-- **Minimalist:** best (minimum) balance of $\frac{\text{Hard Resources Produced (Stone, Iron, Pitch)}}{\text{Game Time}}$ over the entire phase
+- **Minimalist:** best (minimum) balance of (Hard Resources Produced (Stone, Iron, Pitch) / Game Time) over the entire phase
 - **Suicide:** earliest death of the lord outside the keep
 - **Headhunter:** accumulated the most kills in total during the phase. In case of a tie, the accumulated in-game time for all kills will be the tiebreaker.
 
@@ -108,61 +105,59 @@ This is the grand finale! Each of these criteria will be evaluated after all AI 
 - **Croesus:** most total gold accumulated across all phases
 - **Game of Thrones:** most crowns accumulated across all phases
 - **The Joker:** biggest jump in the overall ranking between the end of Phase 1 and the Final Phase; awarded after everything else
-- **Pot of Greed:** best (maximum) ratio of $\frac{\text{Bonus Points}}{\text{Victory Points}}$
+- **Pot of Greed:** best (maximum) ratio of (Bonus Points / Victory Points)
 
 The AI with the most VP + BP at the end of the tournament wins!
 
 ## IV. Special Rules: Ascension Points
-**Ascension Points** (APs) can be used during the tournament to make changes to the submitted AIs between rounds. The options can be found in the table below. Changes will be discussed on the **[Stronghold Modschmiede](https://discord.com/invite/sKtrj9S626)** in the AI's forum channel and **must** be accepted by the AI creator to take effect.
+**Ascension Points** (APs) can be used during the tournament to make changes to the submitted AIs between rounds. The options can be found in the list below. Changes will be discussed on the **[Stronghold Modschmiede](https://discord.com/invite/sKtrj9S626)** in the AI's forum channel and **must** be accepted by the AI creator to take effect.
 
-Each round, $10 \cdot X$ APs will be distributed, where $X$ is the **number of participating AIs**. The distribution works as follows:
+Each round, (10 x number of participating AIs) APs will be distributed. The distribution works as follows:
 - Exactly **7 days** after a video goes live, the watch time `WT` **for that video** will be recorded.
 - The total watch time **of all videos** in the round is accumulated into `GWT`.
-- The **APs** distributed to the **AIs featured** in the video then correspond to the ratio $\frac{\text{WT}}{\text{GWT}}$.
-- Example: The watch time for a video is `WT = 100h` and the total watch time of all videos in the round is `GWT = 1000h`. With 20 participating AIs, the two AIs from the video would each receive $\frac{\text{100}}{\text{1000}} \cdot (10 \cdot 20) = 20 AP$ for that round.
+- The **APs** distributed to the **AIs featured** in the video then correspond to the ratio `WT / GWT`.
+- Example: The watch time for a video is `WT = 100h` and the total watch time of all videos in the round is `GWT = 1000h`. With 20 participating AIs, the two AIs from the video would each receive (100 / 1000) x (10 x 20) = 20 AP for that round.
 
-| Option | (AP) Cost | Description |
-|--------|-------------|--------------|
-| **[0]** | – | **Hotfixes** are free, e.g., for **pathfinding issues**, poorly set **AIC parameters**, or to **add houses**. |
-| **[1]** | 10 | Change the **number of units** in an existing **unit slot** by up to 10 (only 1 for siege engines). |
-| **[2]** | 15 | Add a **new unit slot** with an existing unit type (up to 10 units). |
-| **[3]** | 20 | Introduce a **new unit type** that the AI has not used before. |
-| **[4]** | 4 | Change the number of **AIC economy buildings** by 1. |
-| **[5]** | 8 | Adjust another **AIC parameter**. |
-| **[6]** | 5 | Add or remove an existing **AIV economy building** or 2 **fear factor buildings**. |
-| **[7]** | 10 | Add or remove an existing **AIV castle building** (recruitment, gates, towers) **or** up to 10 sections of wall/moat/killing pit/pitch. |
-| **[8]** | 15 | Introduce (unlock) a new **building type** in the AIV. |
-| **[9]** | 40 | Adjust the **build order**. |
-| **[10]** | 50 | **Increase Lord strength to 2**. |
-| **[11]** | 75 | **Adjust starting troops**, up to a maximum of 15. |
+- **[0] Hotfixes (Free):** Hotfixes are free, e.g., for **pathfinding issues**, poorly set **AIC parameters**, or to **add houses**.
+- **[1] Change Unit Count (10 AP):** Change the **number of units** in an existing **unit slot** by up to 10 (only 1 for siege engines).
+- **[2] Add Unit Slot (15 AP):** Add a **new unit slot** with an existing unit type (up to 10 units).
+- **[3] Add Unit Type (20 AP):** Introduce a **new unit type** that the AI has not used before.
+- **[4] Change Economy Buildings (4 AP):** Change the number of **AIC economy buildings** by 1.
+- **[5] Adjust AIC Parameter (8 AP):** Adjust another **AIC parameter**.
+- **[6] Adjust AIV Buildings (5 AP):** Add or remove an existing **AIV economy building** or 2 **fear factor buildings**.
+- **[7] Adjust Castle Parts (10 AP):** Add or remove an existing **AIV castle building** (recruitment, gates, towers) or up to 10 sections of wall/moat/killing pit/pitch.
+- **[8] Unlock Building Type (15 AP):** Introduce (unlock) a new **building type** in the AIV.
+- **[9] Adjust Build Order (40 AP):** Adjust the **build order**.
+- **[10] Increase Lord Strength (50 AP):** **Increase Lord strength to 2**.
+- **[11] Adjust Starting Troops (75 AP):** **Adjust starting troops**, up to a maximum of 15.
 
 Adjustments can be made up to one day before the start of a round!
 
 __Examples:__
-For example, to replace the melee sortie units (previously 10 spearmen) with 10 monks for an AI that doesn't have a cathedral, the following options are required:  
-[1] Reduce spearmen to 0 (10 AP)  
-[3] Add monks to the repertoire (20 AP)  
-[2] Add a new slot (since Melee Sorties is now 0): 10 monks to Melee Sorties (15 AP)  
-[8] Unlock cathedral (15 AP)  
-[7] Add cathedral to the AIV (10 AP)  
+For example, to replace the melee sortie units (previously 10 spearmen) with 10 monks for an AI that doesn't have a cathedral, the following options are required:
+[1] Reduce spearmen to 0 (10 AP)
+[3] Add monks to the repertoire (20 AP)
+[2] Add a new slot (since Melee Sorties is now 0): 10 monks to Melee Sorties (15 AP)
+[8] Unlock cathedral (15 AP)
+[7] Add cathedral to the AIV (10 AP)
 In total, this would cost **70 AP**.
 
-To give an AI a proper bread economy it didn't have before:  
-[4] Increase MaxFarms by 3 (3 $\cdot$ 4 AP)  
-[5] Change Farm Slot 1 and 2 to wheat farms (2 $\cdot$ 8 AP)  
-[6] Add 2 more AIV woodcutter's huts (2 $\cdot$ 5 AP)  
-[8] Unlock mill and bakery (2 $\cdot$ 15 AP)  
-[6] Place one mill and 8 bakeries (9 $\cdot$ 5 AP)  
+To give an AI a proper bread economy it didn't have before:
+[4] Increase MaxFarms by 3 (3 x 4 AP)
+[5] Change Farm Slot 1 and 2 to wheat farms (2 x 8 AP)
+[6] Add 2 more AIV woodcutter's huts (2 x 5 AP)
+[8] Unlock mill and bakery (2 x 15 AP)
+[6] Place one mill and 8 bakeries (9 x 5 AP)
 In total, this would cost **113 AP**.
 
-To add a second outer bailey to an AI's castle:  
-[7] Add another large gatehouse with a drawbridge (2 $\cdot$ 10 AP)  
-[7] Place 78 sections of wall or crenelated wall (8 $\cdot$ 10 AP)  
-[7] Add 22 sections of moat (3 $\cdot$ 10 AP)  
+To add a second outer bailey to an AI's castle:
+[7] Add another large gatehouse with a drawbridge (2 x 10 AP)
+[7] Place 78 sections of wall or crenelated wall (8 x 10 AP)
+[7] Add 22 sections of moat (3 x 10 AP)
 This would amount to a total cost of **130 AP**.
 
 ## V. Get Involved
 
-[![Stronghold Modschmiede](https://discord.com/api/guilds/738427339746050178/widget.png?style=shield)](https://discord.com/invite/sKtrj9S626)
+[Stronghold Modschmiede](https://discord.com/invite/sKtrj9S626)
 
 Do you also want to help organize, build maps, cast, or simply assist with statistical analysis? Or would you like to sponsor prizes? Apply now as a caster or simply contact **Krarilotus** or **Xander10alpha**. You can find us on **Discord!**

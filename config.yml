@@ -477,7 +477,7 @@ config-sparse:
             suggested-value:
               snake:
                 - name: ApeX-AI-Snake
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Snake/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
                   control:
                     aic: true
                     aiv: true
@@ -485,7 +485,7 @@ config-sparse:
                     startTroops: true
               richard:
                 - name: ApeX-AI-Richard
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Richard/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
                   control:
                     aic: true
                     aiv: true
@@ -500,50 +500,50 @@ config-sparse:
               contents:
                 suggested-value:
                   name: ApeX-AI-Richard
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Richard/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
                   active: true
             aiv:
               contents:
                 suggested-value:
                   name: ApeX-AI-Richard
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Richard/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
                   active: true
             lord:
               contents:
                 suggested-value:
                   name: ApeX-AI-Richard
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Richard/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
                   active: true
             startTroops:
               contents:
                 suggested-value:
                   name: ApeX-AI-Richard
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Richard/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Richard/
                   active: true
           snake:
             aic:
               contents:
                 suggested-value:
                   name: ApeX-AI-Snake
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Snake/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
                   active: true
             aiv:
               contents:
                 suggested-value:
                   name: ApeX-AI-Snake
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Snake/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
                   active: true
             lord:
               contents:
                 suggested-value:
                   name: ApeX-AI-Snake
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Snake/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
                   active: true
             startTroops:
               contents:
                 suggested-value:
                   name: ApeX-AI-Snake
-                  root: ucp/plugins/Ascension-KI-Turnier/resources/ai/Snake/
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Snake/
                   active: true
   plugins:
     Ascension-AI-Balance:
