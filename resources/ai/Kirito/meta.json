@@ -1,0 +1,19 @@
+{
+  "name": "Kirito Kun",
+  "description": "Official Kirito Kun AI from Xander10alpha a very strong Swordsmen.",
+  "author": "Xander10alpha",
+  "link": "https://github.com/Xander10alpha/extension-Kirito-Kun-AI",
+  "version": "1.0.0",
+  "defaultLang": "de",
+  "supportedLang": ["de"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+}

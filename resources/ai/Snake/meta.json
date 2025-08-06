@@ -1,0 +1,19 @@
+{
+  "name": "ApeX-AI-Snake",
+  "description": "This is the ApeX-AI-Snake v1.4.0",
+  "author": "Xander10alpha",
+  "link": "https://github.com/Xander10alpha/extension-ApeX-AI-Behaviour",
+  "version": "1.4.0",
+  "defaultLang": "de",
+  "supportedLang": ["de", "en"],
+  "switched": {
+    "binks": false,
+    "speech": false,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": false,
+    "portrait": false
+  }
+}
