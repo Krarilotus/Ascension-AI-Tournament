@@ -276,10 +276,10 @@ config-sparse:
           running:
             general:
               contents:
-                suggested-value: false
+                suggested-value: true
             ai:
               contents:
-                suggested-value: aic_walk_if_not_defined
+                suggested-value: aic_run_if_not_defined
     startResources:
       config:
         startGold:

@@ -135,27 +135,27 @@ The exact Options for Changes are:
 Adjustments can be made up to one day before the start of a round!
 
 __Examples:__
-For example, to replace the melee sortie units (previously 10 spearmen) with 10 monks for an AI that doesn't have a cathedral, the following options are required:
-[1] Reduce spearmen to 0 (10 AP)
-[3] Add monks to the repertoire (20 AP)
-[2] Add a new slot (since Melee Sorties is now 0): 10 monks to Melee Sorties (15 AP)
-[8] Unlock cathedral (15 AP)
-[7] Add cathedral to the AIV (10 AP)
-In total, this would cost **70 AP**.
+For example, to replace the melee sortie units (previously 10 spearmen) with 10 monks for an AI that doesn't have a cathedral, the following options are required:  
+[1] Reduce spearmen to 0 (10 AP)  
+[3] Add monks to the repertoire (20 AP)  
+[2] Add a new slot (since Melee Sorties is now 0): 10 monks to Melee Sorties (15 AP)  
+[8] Unlock cathedral (15 AP)  
+[7] Add cathedral to the AIV (10 AP)  
+In total, this would cost **70 AP**.  
 
-To give an AI a proper bread economy it didn't have before:
-[4] Increase MaxFarms by 3 (3 x 4 AP)
-[5] Change Farm Slot 1 and 2 to wheat farms (2 x 8 AP)
-[6] Add 2 more AIV woodcutter's huts (2 x 5 AP)
-[8] Unlock mill and bakery (2 x 15 AP)
-[6] Place one mill and 8 bakeries (9 x 5 AP)
-In total, this would cost **113 AP**.
+To give an AI a proper bread economy it didn't have before:  
+[4] Increase MaxFarms by 3 (3 x 4 AP)  
+[5] Change Farm Slot 1 and 2 to wheat farms (2 x 8 AP)  
+[6] Add 2 more AIV woodcutter's huts (2 x 5 AP)  
+[8] Unlock mill and bakery (2 x 15 AP)  
+[6] Place one mill and 8 bakeries (9 x 5 AP)  
+In total, this would cost **113 AP**.  
 
-To add a second outer bailey to an AI's castle:
-[7] Add another large gatehouse with a drawbridge (2 x 10 AP)
-[7] Place 78 sections of wall or crenelated wall (8 x 10 AP)
-[7] Add 22 sections of moat (3 x 10 AP)
-This would amount to a total cost of **130 AP**.
+To add a second outer bailey to an AI's castle:  
+[7] Add another large gatehouse with a drawbridge (2 x 10 AP)  
+[7] Place 78 sections of wall or crenelated wall (8 x 10 AP)  
+[7] Add 22 sections of moat (3 x 10 AP)  
+This would amount to a total cost of **130 AP**.  
 
 ## V. Get Involved
 
