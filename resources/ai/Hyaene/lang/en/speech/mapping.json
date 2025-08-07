@@ -32,5 +32,5 @@
   "team_losing"  : "hyaene_team_losing_01.wav",
   "team_winning" : "hyaene_team_winning_01.wav",
   "help_sent"    : "hyaene_helpsent_01.wav",
-  "will_attack"  : "hyaene_willattack_01.wav"
+  "will_attack"  : "hyaene_will_attack_01.wav"
 }
