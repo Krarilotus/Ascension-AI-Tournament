@@ -167,33 +167,34 @@ Wollt ihr auch mitorganisieren, Karten bauen, casten oder einfach nur bei Statis
 ## VI. Appendix - Mapliste & Ersteller
 ### 1vs1 - 15 Stück
 Ancient Terraces - von Crusader Pilaw  
+Ancient Terraces - von Crusader Pilaw  
 Beaten Heart - von Krarilotus  
 Berg Alawia - von Nevikov  
-Conquest Deadly Ascent - von Monsterfish_
-Conquest Dune - von Monsterfish_
-Crimson Rivers - von Nevikov
-Dusty River - von Lord Hühnerfutter
-Fissure - von Krarilotus
-Guilty Modder - von Krarilotus
-Insel Kyklos - von Hacksülze
-Oasis Power - von Krarilotus
-Rumble - von Nevikov
-Silence - von Nevikov
-Trommelhügel - von Nevikov
-Watcher's Eye - von Krarilotus
+Conquest Deadly Ascent - von Monsterfish_  
+Conquest Dune - von Monsterfish_  
+Crimson Rivers - von Nevikov  
+Dusty River - von Lord Hühnerfutter  
+Fissure - von Krarilotus  
+Guilty Modder - von Krarilotus  
+Insel Kyklos - von Hacksülze  
+Oasis Power - von Krarilotus  
+Rumble - von Nevikov  
+Silence - von Nevikov  
+Trommelhügel - von Nevikov  
+Watcher's Eye - von Krarilotus  
 
 ### 2vs2 - 9 Stück
-Fading Riches - von Lord Hühnerfutter
-Green Trench - von Nevikov
-Hammer and Anvil - von Tobbi
-Heimatland - Der Archipel - von Crusader Pilaw
-Heimatland - Der Graben - von Crusader Pilaw
-Heimatland - Die Klamm - von Crusader Pilaw
-Mesopotamien - von Hacksülze
-Rocky Crenels - von Crusader Pilaw
-Two Mountains - von Xander10alpha
+Fading Riches - von Lord Hühnerfutter  
+Green Trench - von Nevikov  
+Hammer and Anvil - von Tobbi  
+Heimatland - Der Archipel - von Crusader Pilaw  
+Heimatland - Der Graben - von Crusader Pilaw  
+Heimatland - Die Klamm - von Crusader Pilaw  
+Mesopotamien - von Hacksülze  
+Rocky Crenels - von Crusader Pilaw  
+Two Mountains - von Xander10alpha  
 
 ### FFA - 3 Stück
-Desert Throne - von Nevikov
-Green Haven Retraced - von Krarilotus
-Mayham - von Crusader Pilaw
+Desert Throne - von Nevikov  
+Green Haven Retraced - von Krarilotus  
+Mayham - von Crusader Pilaw  

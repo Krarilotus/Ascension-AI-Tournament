@@ -172,31 +172,31 @@ Do you also want to help organize, build maps, cast, or simply assist with stati
 Ancient Terraces - by Crusader Pilaw  
 Beaten Heart - by Krarilotus  
 Berg Alawia - by Nevikov  
-Conquest Deadly Ascent - by Monsterfish_
-Conquest Dune - by Monsterfish_
-Crimson Rivers - by Nevikov
-Dusty River - by Lord Hühnerfutter
-Fissure - by Krarilotus
-Guilty Modder - by Krarilotus
-Insel Kyklos - by Hacksülze
-Oasis Power - by Krarilotus
-Rumble - by Nevikov
-Silence - by Nevikov
-Trommelhügel - by Nevikov
-Watcher's Eye - by Krarilotus
+Conquest Deadly Ascent - by Monsterfish_  
+Conquest Dune - by Monsterfish_  
+Crimson Rivers - by Nevikov  
+Dusty River - by Lord Hühnerfutter  
+Fissure - by Krarilotus  
+Guilty Modder - by Krarilotus  
+Insel Kyklos - by Hacksülze  
+Oasis Power - by Krarilotus  
+Rumble - by Nevikov  
+Silence - by Nevikov  
+Trommelhügel - by Nevikov  
+Watcher's Eye - by Krarilotus  
 
 ### 2vs2 - 9 total
-Fading Riches - by Lord Hühnerfutter
-Green Trench - by Nevikov
-Hammer and Anvil - by Tobbi
-Heimatland - Der Archipel - by Crusader Pilaw
-Heimatland - Der Graben - by Crusader Pilaw
-Heimatland - Die Klamm - by Crusader Pilaw
-Mesopotamien - by Hacksülze
-Rocky Crenels - by Crusader Pilaw
-Two Mountains - by Xander10alpha
+Fading Riches - by Lord Hühnerfutter  
+Green Trench - by Nevikov  
+Hammer and Anvil - by Tobbi  
+Heimatland - Der Archipel - by Crusader Pilaw  
+Heimatland - Der Graben - by Crusader Pilaw  
+Heimatland - Die Klamm - by Crusader Pilaw  
+Mesopotamien - by Hacksülze  
+Rocky Crenels - by Crusader Pilaw  
+Two Mountains - by Xander10alpha  
 
 ### FFA - 3 total
-Desert Throne - by Nevikov
-Green Haven Retraced - by Krarilotus
-Mayham - by Crusader Pilaw
+Desert Throne - by Nevikov  
+Green Haven Retraced - by Krarilotus  
+Mayham - by Crusader Pilaw  
