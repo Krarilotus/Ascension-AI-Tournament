@@ -32,8 +32,11 @@ Außerdem gelten folgende Einschränkungen:
 - Maximale Lordstärke 1.5
 - Keine unnötigen Exploits!
 
-Für die Einreichung wird auch zwingend eine sortierte Präferenzliste der im Plugin verfügbaren Karten erwartet. Jeder Map-Pick wird im Turnierverlauf einmalig berücksichtigt und danach aus der Liste gelöscht. Für Entscheidungsspiele wird eine zufällige Auswahl getroffen.  
-***Achtung:** Die Maps sind noch nicht im finalen Zustand, die Liste kann noch erweitert werden.*
+Für die Einreichung wird auch zwingend eine sortierte Präferenzliste der im Plugin verfügbaren Karten erwartet. Jeder Map-Pick wird im Turnierverlauf einmalig berücksichtigt und danach aus der Liste gelöscht. Für Entscheidungsspiele wird eine zufällige Auswahl getroffen, aus Karten die von dieser KI noch nicht gespielt wurden.  
+**Anmerkungen:** 
+- Für 2 vs 2 Karten wird außerdem eine präferierte Position erwartet.
+- Es sind mindestens 5 Karten für das 1 vs 1, zwei Karten für das 2 vs 2 und eine Karte für das Alle gegen Alle zu wählen
+- Die finale Kartenliste kann im Appends (siehe VI.) eingesehen werden. 
 
 ---
 
@@ -46,7 +49,7 @@ __Einleitungsphase:__ Es wird eine Einführungsrunde geben, in der alle KIs in e
 
 __Phase 1:__ Das Turnier findet anfänglich im klassischen **[Schweizer System](https://de.wikipedia.org/wiki/Schweizer_System)** statt. Es wird mindestens **zwei Runden im Schweizer System** zur grundlegenden Einordnung der KIs geben. Die genaue Anzahl steigt mit der Anzahl der teilnehmenden KIs.  
 
-__Phase 2:__ Es schließt sich eine Runde **[Jeder gegen Jeden (FFA)](https://en.wikipedia.org/wiki/Deathmatch)** an und anschließend **zwei Runden 2 vs. 2**. Dabei werden für jede der Runden die Teams anhand der aktuellen Punkte aus der Tabelle gematcht: Der Erste mit dem Letzten, der Zweite mit dem Vorletzten usw.
+__Phase 2:__ Es schließt sich eine Runde **[Jeder gegen Jeden (4 Spieler FFA)](https://en.wikipedia.org/wiki/Deathmatch)** an und anschließend **zwei Runden 2 vs. 2**. Dabei werden für jede der Runden die Teams anhand der aktuellen Punkte aus der Tabelle gematcht: Der Erste mit dem Letzten, der Zweite mit dem Vorletzten usw. Dabei fällt die Kartenwahl an den Punkteschwächeren und die Positionswahl an den Punktestärkeren im Team.
 
 __Abschlussphase:__ Zum Abschluss kommt eine finale Runde **1 vs. 1** nach **[Schweizer System](https://de.wikipedia.org/wiki/Schweizer_System)**-Verteilung.
 
@@ -160,3 +163,37 @@ Dies würde sich insgesamt auf **130 AP** belaufen.
 [Stronghold Modschmiede](https://discord.com/invite/sKtrj9S626)
 
 Wollt ihr auch mitorganisieren, Karten bauen, casten oder einfach nur bei Statistik-Auswertungen mithelfen? Oder wollt ihr Preise sponsorn? Bewerbt euch jetzt als Caster oder meldet euch einfach bei **Krarilotus** oder **Xander10alpha**. Ihr findet uns auf dem **Discord!**
+
+## VI. Appendix - Mapliste & Ersteller
+### 1vs1 - 15 Stück
+Ancient Terraces - von Crusader Pilaw  
+Beaten Heart - von Krarilotus  
+Berg Alawia - von Nevikov  
+Conquest Deadly Ascent - von Monsterfish_
+Conquest Dune - von Monsterfish_
+Crimson Rivers - von Nevikov
+Dusty River - von Lord Hühnerfutter
+Fissure - von Krarilotus
+Guilty Modder - von Krarilotus
+Insel Kyklos - von Hacksülze
+Oasis Power - von Krarilotus
+Rumble - von Nevikov
+Silence - von Nevikov
+Trommelhügel - von Nevikov
+Watcher's Eye - von Krarilotus
+
+### 2vs2 - 9 Stück
+Fading Riches - von Lord Hühnerfutter
+Green Trench - von Nevikov
+Hammer and Anvil - von Tobbi
+Heimatland - Der Archipel - von Crusader Pilaw
+Heimatland - Der Graben - von Crusader Pilaw
+Heimatland - Die Klamm - von Crusader Pilaw
+Mesopotamien - von Hacksülze
+Rocky Crenels - von Crusader Pilaw
+Two Mountains - von Xander10alpha
+
+### FFA - 3 Stück
+Desert Throne - von Nevikov
+Green Haven Retraced - von Krarilotus
+Mayham - von Crusader Pilaw

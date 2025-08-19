@@ -33,7 +33,11 @@ Additionally, the following restrictions apply:
 - No unnecessary exploits!
 
 A sorted preference list of the maps available in the plugin is also mandatory for submission. Each map pick will be honored once during the tournament and then removed from the list. For tiebreaker matches, a random map will be selected.
-***Note:** The maps are not yet in their final state; the list may still be expanded.*
+
+**Notes:**
+- For 2 vs 2 maps, a preferred starting position is also required.
+- At least 5 maps for 1 vs 1, two maps for 2 vs 2, and one map for Free-for-All must be selected.
+- The final map list can be found in the Appendix (see VI).
 
 ---
 
@@ -46,7 +50,7 @@ __Introductory Phase:__ There will be an introductory round where all AIs are sh
 
 __Phase 1:__ The tournament will initially follow the classic **[Swiss System](https://en.wikipedia.org/wiki/Swiss-system_tournament)**. There will be at least **two Swiss System rounds** to establish a basic ranking of the AIs. The exact number of rounds will increase with the number of participating AIs.
 
-__Phase 2:__ This is followed by one round of **[Free-for-All (FFA)](https://en.wikipedia.org/wiki/Deathmatch_(gaming))** and then **two rounds of 2 vs. 2**. For each of these rounds, teams will be matched based on the current points from the standings: the first-place AI with the last, the second with the second-to-last, and so on.
+__Phase 2:__ This is followed by one round of **[Free-for-All (4 players FFA)](https://en.wikipedia.org/wiki/Deathmatch_(gaming))** and then **two rounds of 2 vs. 2**. For each of these rounds, teams will be matched based on the current points from the standings: the first-place AI with the last, the second with the second-to-last, and so on. The lower-ranked player on a team chooses the map, while the higher-ranked player chooses the position.
 
 __Final Phase:__ To conclude, there will be a final round of **1 vs. 1** following the **[Swiss System](https://en.wikipedia.org/wiki/Swiss-system_tournament)** distribution.
 
@@ -162,3 +166,37 @@ This would amount to a total cost of **130 AP**.
 [Stronghold Modschmiede](https://discord.com/invite/sKtrj9S626)
 
 Do you also want to help organize, build maps, cast, or simply assist with statistical analysis? Or would you like to sponsor prizes? Apply now as a caster or simply contact **Krarilotus** or **Xander10alpha**. You can find us on **Discord!**
+
+## VI. Appendix - Maplist & Creators
+### 1vs1 - 15 total
+Ancient Terraces - by Crusader Pilaw  
+Beaten Heart - by Krarilotus  
+Berg Alawia - by Nevikov  
+Conquest Deadly Ascent - by Monsterfish_
+Conquest Dune - by Monsterfish_
+Crimson Rivers - by Nevikov
+Dusty River - by Lord Hühnerfutter
+Fissure - by Krarilotus
+Guilty Modder - by Krarilotus
+Insel Kyklos - by Hacksülze
+Oasis Power - by Krarilotus
+Rumble - by Nevikov
+Silence - by Nevikov
+Trommelhügel - by Nevikov
+Watcher's Eye - by Krarilotus
+
+### 2vs2 - 9 total
+Fading Riches - by Lord Hühnerfutter
+Green Trench - by Nevikov
+Hammer and Anvil - by Tobbi
+Heimatland - Der Archipel - by Crusader Pilaw
+Heimatland - Der Graben - by Crusader Pilaw
+Heimatland - Die Klamm - by Crusader Pilaw
+Mesopotamien - by Hacksülze
+Rocky Crenels - by Crusader Pilaw
+Two Mountains - by Xander10alpha
+
+### FFA - 3 total
+Desert Throne - by Nevikov
+Green Haven Retraced - by Krarilotus
+Mayham - by Crusader Pilaw

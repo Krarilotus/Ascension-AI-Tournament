@@ -563,6 +563,18 @@ config-sparse:
                     aiv: true
                     lord: true
                     startTroops: true
+              frederick:
+                - name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
         defaultLanguage:
           contents:
             suggested-value: null
@@ -910,6 +922,55 @@ config-sparse:
                 suggested-value:
                   name: (no)made
                   root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Nomade/
+                  active: true
+          frederick:
+            binks:
+              contents:
+                suggested-value:
+                  name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Watcher's Eye Rat
+                  root: ucp/plugins/Ascension-AI-Tournament/resources/ai/Watcher_Eye_Rat/
                   active: true
     maploader:
       config:

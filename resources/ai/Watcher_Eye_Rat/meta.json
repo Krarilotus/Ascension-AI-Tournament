@@ -1,0 +1,19 @@
+{
+  "name": "Watcher's Eye Rat",
+  "description": "A custom, passive AI for the map Watcher's Eye.",
+  "author": "Krarilotus, Xander10Alpha",
+  "link": "",
+  "version": "1.0.0",
+  "defaultLang": "en",
+  "supportedLang": ["de", "en"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+}

@@ -1,6 +1,6 @@
 name: Ascension-AI-Tournament
-author: Xander10alpha
-version: 3.0.2
+author: Xander10alpha & Krarilotus
+version: 3.0.3
 dependencies:
   startResources: ^1.0.1
   aiSwapper: ^1.2.0
