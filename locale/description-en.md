@@ -32,7 +32,7 @@ Additionally, the following restrictions apply:
 - Maximum Lord strength of 1.5
 - No unnecessary exploits!
 
-A sorted preference list of the maps available in the plugin is also mandatory for submission. Each map pick will be honored once during the tournament and then removed from the list. For tiebreaker matches, a random map will be selected.
+A sorted preference list of the maps available in the plugin is also mandatory for submission. Each map pick will be honored once during the tournament and then removed from the list. For the final map of best-of-X matches a map will be chosen at random out of those, least played by participating AIs thus far.  
 
 **Notes:**
 - For 2 vs 2 maps, a preferred starting position is also required.
@@ -50,7 +50,7 @@ __Introductory Phase:__ There will be an introductory round where all AIs are sh
 
 __Phase 1:__ The tournament will initially follow the classic **[Swiss System](https://en.wikipedia.org/wiki/Swiss-system_tournament)**. There will be at least **two Swiss System rounds** to establish a basic ranking of the AIs. The exact number of rounds will increase with the number of participating AIs.
 
-__Phase 2:__ This is followed by one round of **[Free-for-All (4 players FFA)](https://en.wikipedia.org/wiki/Deathmatch_(gaming))** and then **two rounds of 2 vs. 2**. For each of these rounds, teams will be matched based on the current points from the standings: the first-place AI with the last, the second with the second-to-last, and so on. The lower-ranked player on a team chooses the map, while the higher-ranked player chooses the position.
+__Phase 2:__ This is followed by one round of **[Free-for-All (4 players FFA)](https://en.wikipedia.org/wiki/Deathmatch_(gaming))** and then **two rounds of 2 vs. 2**. For each of these rounds, teams will be matched based on the current points from the standings: the first-place AI with the last, the second with the second-to-last, and so on. The lower-ranked player on a team chooses the map, while the higher-ranked player chooses the position. In Free-for-All games the target choice of the AIs will be fixed to **Gold**.
 
 __Final Phase:__ To conclude, there will be a final round of **1 vs. 1** following the **[Swiss System](https://en.wikipedia.org/wiki/Swiss-system_tournament)** distribution.
 
@@ -139,12 +139,12 @@ The exact Options for Changes are:
 Adjustments can be made up to one day before the start of a round!
 
 __Examples:__
-For example, to replace the melee sortie units (previously 10 spearmen) with 10 monks for an AI that doesn't have a cathedral, the following options are required:  
+For example, to replace the melee sortie units (previously 10 spearmen) with 10 assassins for an AI that doesn't have a mercenary post, the following options are required:  
 [1] Reduce spearmen to 0 (10 AP)  
-[3] Add monks to the repertoire (20 AP)  
-[2] Add a new slot (since Melee Sorties is now 0): 10 monks to Melee Sorties (15 AP)  
-[8] Unlock cathedral (15 AP)  
-[7] Add cathedral to the AIV (10 AP)  
+[3] Add assassins to the repertoire (20 AP)  
+[2] Add a new slot (since Melee Sorties is now 0): 10 assassins to Melee Sorties (15 AP)  
+[8] Unlock mercenary post (15 AP)  
+[7] Add mercenary post to the AIV (10 AP)  
 In total, this would cost **70 AP**.  
 
 To give an AI a proper bread economy it didn't have before:  

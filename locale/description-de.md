@@ -32,11 +32,11 @@ Außerdem gelten folgende Einschränkungen:
 - Maximale Lordstärke 1.5
 - Keine unnötigen Exploits!
 
-Für die Einreichung wird auch zwingend eine sortierte Präferenzliste der im Plugin verfügbaren Karten erwartet. Jeder Map-Pick wird im Turnierverlauf einmalig berücksichtigt und danach aus der Liste gelöscht. Für Entscheidungsspiele wird eine zufällige Auswahl getroffen, aus Karten die von dieser KI noch nicht gespielt wurden.  
+Für die Einreichung wird auch zwingend eine sortierte Präferenzliste der im Plugin verfügbaren Karten erwartet. Jeder Map-Pick wird im Turnierverlauf einmalig berücksichtigt und danach aus der Liste gelöscht. Für Entscheidungsspiele wird eine zufällige Auswahl getroffen, aus den Karten die von beteiligten KIs zusammengenommen bisher am wenigsten gespielt wurden.  
 **Anmerkungen:** 
-- Für 2 vs 2 Karten wird außerdem eine präferierte Position erwartet.
-- Es sind mindestens 5 Karten für das 1 vs 1, zwei Karten für das 2 vs 2 und eine Karte für das Alle gegen Alle zu wählen
-- Die finale Kartenliste kann im Appends (siehe VI.) eingesehen werden. 
+- Für 2 vs 2 Karten wird außerdem eine präferierte Position erwartet.  
+- Es sind mindestens 5 Karten für das 1 vs 1, zwei Karten für das 2 vs 2 und eine Karte für das Alle gegen Alle zu wählen  
+- Die finale Kartenliste kann im Appendix (siehe VI.) eingesehen werden.  
 
 ---
 
@@ -49,7 +49,7 @@ __Einleitungsphase:__ Es wird eine Einführungsrunde geben, in der alle KIs in e
 
 __Phase 1:__ Das Turnier findet anfänglich im klassischen **[Schweizer System](https://de.wikipedia.org/wiki/Schweizer_System)** statt. Es wird mindestens **zwei Runden im Schweizer System** zur grundlegenden Einordnung der KIs geben. Die genaue Anzahl steigt mit der Anzahl der teilnehmenden KIs.  
 
-__Phase 2:__ Es schließt sich eine Runde **[Jeder gegen Jeden (4 Spieler FFA)](https://en.wikipedia.org/wiki/Deathmatch)** an und anschließend **zwei Runden 2 vs. 2**. Dabei werden für jede der Runden die Teams anhand der aktuellen Punkte aus der Tabelle gematcht: Der Erste mit dem Letzten, der Zweite mit dem Vorletzten usw. Dabei fällt die Kartenwahl an den Punkteschwächeren und die Positionswahl an den Punktestärkeren im Team.
+__Phase 2:__ Es schließt sich eine Runde **[Jeder gegen Jeden (4 Spieler FFA)](https://en.wikipedia.org/wiki/Deathmatch)** an und anschließend **zwei Runden 2 vs. 2**. Dabei werden für jede der Runden die Teams anhand der aktuellen Punkte aus der Tabelle gematcht: Der Erste mit dem Letzten, der Zweite mit dem Vorletzten usw. Dabei fällt die Kartenwahl an den Punkteschwächeren und die Positionswahl an den Punktestärkeren im Team. In Jeder gegen Jeden Spielen wird das Angriffsziel aller KIs festgesetzt auf **Gold**.
 
 __Abschlussphase:__ Zum Abschluss kommt eine finale Runde **1 vs. 1** nach **[Schweizer System](https://de.wikipedia.org/wiki/Schweizer_System)**-Verteilung.
 
@@ -136,12 +136,12 @@ Die Optionen für Änderungen sind:
 
 
 __Fallbeispiele:__  
-Um z. B. bei einer KI ohne Kathedrale die Melee-Sortie-Einheiten (bisher 10 Speerkämpfer) durch 10 Mönche zu ersetzen, sind folgende Optionen nötig:  
+Um z. B. bei einer KI ohne Söldnerposten die Melee-Sortie-Einheiten (bisher 10 Speerkämpfer) durch 10 Assassinen zu ersetzen, sind folgende Optionen nötig:  
 [1] Speerkämpfer auf 0 reduzieren (10 AP)  
-[3] Mönche ins Repertoire hinzufügen (20 AP)  
-[2] Neuen Slot (Melee-Sorties war ja jetzt 0) hinzufügen: 10 Mönche zu Melee-Sorties (15 AP)  
-[8] Kathedrale freischalten (15 AP)  
-[7] Kathedrale der AIV hinzufügen (10 AP)  
+[3] Assassinen ins Repertoire hinzufügen (20 AP)  
+[2] Neuen Slot (Melee-Sorties war ja jetzt 0) hinzufügen: 10 Assassinen zu Melee-Sorties (15 AP)  
+[8] Söldnerposten freischalten (15 AP)  
+[7] Söldnerposten der AIV hinzufügen (10 AP)  
 Insgesamt kostet dies also **70 AP**.
 
 Um einer KI eine vernünftige Brot-Eco zu geben, die sie vorher nicht hatte:  
@@ -150,13 +150,13 @@ Um einer KI eine vernünftige Brot-Eco zu geben, die sie vorher nicht hatte:
 [6] 2 weitere AIV Holzfäller hinzufügen (2 x 5 AP)  
 [8] Mühle und Bäckerei freischalten (2 x 15 AP)  
 [6] Eine Mühle und 8 Bäckereien platzieren (9 x 5 AP)  
-Insgesamt würde dies **113 AP** kosten.
+Insgesamt würde dies **113 AP** kosten.  
 
 Um einer KI einen zweiten Burg-Vorhof hinzuzufügen:  
 [7] Ein weiteres großes Torhaus mit Zugbrücke hinzufügen (2 x 10 AP)  
 [7] 78 Wall- bzw. Zinnwall-Felder platzieren (8 x 10 AP)
 [7] 22 Felder Wassergraben hinzufügen (3 x 10 AP)
-Dies würde sich insgesamt auf **130 AP** belaufen.
+Dies würde sich insgesamt auf **130 AP** belaufen.  
 
 ## V. Mitmachangebot
 
@@ -166,7 +166,6 @@ Wollt ihr auch mitorganisieren, Karten bauen, casten oder einfach nur bei Statis
 
 ## VI. Appendix - Mapliste & Ersteller
 ### 1vs1 - 15 Stück
-Ancient Terraces - von Crusader Pilaw  
 Ancient Terraces - von Crusader Pilaw  
 Beaten Heart - von Krarilotus  
 Berg Alawia - von Nevikov  
