@@ -43,7 +43,7 @@ A sorted preference list of the maps available in the plugin is also mandatory f
 
 ## III. Tournament Procedure
 
-Matches always end after 50 years at the latest, resulting in a draw!
+Matches always end after 50 years at the latest, resulting in a draw! This limit is 60 years for maps with Dummy AIs and 75 Years for 2 vs 2 Matches.
 
 ### Schedule
 __Introductory Phase:__ There will be an introductory round where all AIs are showcased in a brief presentation before the actual tournament begins.

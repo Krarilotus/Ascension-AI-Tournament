@@ -42,7 +42,7 @@ Für die Einreichung wird auch zwingend eine sortierte Präferenzliste der im Pl
 
 ## III. Turnierablauf
 
-Spiele enden immer spätestens nach 50 Jahren, was in einem Unentschieden resultiert!
+Spiele enden immer spätestens nach 50 Jahren, was in einem Unentschieden resultiert! Dieses Limit beträgt für Karten mit Dummy AIs 60 Jahre und für 2 vs 2 Matches 75 Jahre.
 
 ### Spielplan
 __Einleitungsphase:__ Es wird eine Einführungsrunde geben, in der alle KIs in einer Kurzvorstellung gezeigt werden, bevor das eigentliche Turnier stattfindet.
