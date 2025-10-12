@@ -79,7 +79,7 @@ __Phase 1:__ For each of these challenges, the **top N AIs** of the phase in eac
 - **MVP:** killed the most troops in a single match
 - **Eco-Freak:** produced the fewest wood planks in a single match
 - **Cunning:** achieved the largest difference in a match from:
-  `(Enemy Troops Died) - (Own Troops Killed)`
+  `(Enemy Troops Died) - (Own Troops Killed)` where maps with dummy rats are excluded!
 - **Sacrificial Lamb:** lost the most buildings accumulated over the entire phase
 - **Showmaster:** had a match duration closest to the average of all matches in this phase
 
@@ -100,7 +100,7 @@ __Phase 2:__ For each of these challenges, the **top N AIs or teams** in each ca
 
 __Final Phase:__
 This is the grand finale! Each of these criteria will be evaluated after all AI matches are completed.
-- **Ascended:** has the most Ascension Points (see below) left at the end of the tournament
+- **Ascended:** earned the most Ascension Points over the course of the whole tournament
 - **Kingslayer:** won a single match with the largest point deficit
 (Awarded multiple times in case of a tie!)
 - **Superstar:** chosen by the audience from selected highlights (YouTube Poll). This honors the most epic highlight of the tournament.
@@ -122,44 +122,85 @@ Each round, (10 x number of participating AIs) APs will be distributed. The dist
 - The **APs** distributed to the **AIs featured** in the video then correspond to the ratio `WT / GWT`.
 - Example: The watch time for a video is `WT = 100h` and the total watch time of all videos in the round is `GWT = 1000h`. With 20 participating AIs, the two AIs from the video would each receive (100 / 1000) x (10 x 20) = 20 AP for that round.
 
-The exact Options for Changes are:  
-- **[0] Hotfixes (Free):** Hotfixes are free, e.g., for **pathfinding issues**, poorly set **AIC parameters**, or to **add houses**.
-- **[1] Change Unit Count (10 AP):** Change the **number of units** in an existing **unit slot** by up to 10 (only 1 for siege engines).
-- **[2] Add Unit Slot (15 AP):** Add a **new unit slot** with an existing unit type (up to 10 units).
-- **[3] Add Unit Type (20 AP):** Introduce a **new unit type** that the AI has not used before.
-- **[4] Change Economy Buildings (4 AP):** Change the number of **AIC economy buildings** by 1.
-- **[5] Adjust AIC Parameter (8 AP):** Adjust another **AIC parameter**.
-- **[6] Adjust AIV Buildings (5 AP):** Add or remove an existing **AIV economy building** or 2 **fear factor buildings**.
-- **[7] Adjust Castle Parts (10 AP):** Add or remove an existing **AIV castle building** (recruitment, gates, towers) or up to 10 sections of wall/moat/killing pit/pitch.
-- **[8] Unlock Building Type (15 AP):** Introduce (unlock) a new **building type** in the AIV.
-- **[9] Adjust Build Order (40 AP):** Adjust the **build order**.
-- **[10] Increase Lord Strength (50 AP):** **Increase Lord strength to 2**.
-- **[11] Adjust Starting Troops (75 AP):** **Adjust starting troops**, up to a maximum of 15.
+The exact Options for Changes are:  
+- **Hotfixes (Free):** Hotfixes are free, e.g., for **pathfinding issues**, poorly set **AIC parameters**, or to **add houses**.
 
-Adjustments can be made up to one day before the start of a round!
+### AIV Change Options
+- **[VBC] Village Basic Change (5 AP):** Add/Remove/Reposition one AIV Non-Castle Building or Add/Remove/Reposition up to two Fearfactor Buildings or Add/Remove/Reposition one AIV Troop Rally Point.
+- **[CBC] Castle Basic Change (10 AP):** Add/Remove/Reposition one AIV Castle Building or Add/Remove/Reposition up to Twenty Wall/Moat/Pitch/Killing Pit tiles or Add/Remove/Reposition up to five Fearfactor Buildings or Add/Remove/Reposition up to three AIV Troop Rally Points.
+- **[UBT] Unlock Buildingtype (15 AP):** Introduce (unlock) a new building type (Note: Woodcutters, Hunters, Oxtethers and Ghoststeps (Index 2) are always unlocked!).
+- **[ABO] Adjust Build Order (40 AP):** Adjust the build order, no repositioning of buildings!
+
+### AIC Change Options
+- **[BBC] Behaviour Basic Change (5 AP):** Adjust one Non-Unit-Slot related AIC Value.
+- **[UCC] Unit Count Change (5 AP):** Change the number of units in an existing Unit-Slot by up to 5 or the number of Siege Engines by one or add/remove/replace one Siege Engine and necessary engineers.
+- **[AUS] Add Unit Slot (10 AP):** Add a new Unit-Slot with an existing unit type with up to 5 units.
+- **[UUT] Unlock Unittype (20 AP):** Introduce a new unit type that has not been used before by this AI.
+
+### AP Package Deals
+- **[ORN] Ox & Running Newbie (10 AP):** Freely Add/Remove/Adjust any of the newly introduced Values related to Oxtether logic and Running Units.
+- **[WBS] Workers Big Sellout (10 AP):** Freely Adjust all Sell Resources and Workshop Preferences.
+- **[FFT] Fearful Taxcollector (10 AP):** Freely Adjust all Taxation and Popularity Values as well as Double Rations Threshold.
+- **[CRL] Crops Relocation (10 AP):** Freely Adjust all Farmslot Values and the Population Per Farm Value.
+- **[SPH] Stockpile Hoarding (15 AP):** Freely Adjust all Minimum and Maximum Resource Values, Resource Variance and Trade Amount Values.
+- **[SEX] Strategic Expertise (15 AP):** Freely Adjust all Wall and Outer Patrol Group Counts and Rally Times and Movement, as well as Raid Retarget Delay, Support Threshold, Rally Percentage, Assault Delay, Recommand Delay and Cowthrowing Interval.
+- **[FBG] Fresh Battlegrounds (20 AP):** Freely Adjust remaining Map Picks (Note: Map picks need to stay unique and already played map picks can't be redone!).
+- **[DEA] Draft Eco Adjustment (20 AP):** Freely Adjust all Population per Buildingtype, Maximum Buildingtype, Recource Rebuild Delay Values.
+- **[ACP] Army Conscriptions (25 AP):** Freely Adjust all Recuritment Probabilities, Recruitment Gold Threshold, Siege Engine Gold Threshold, Recruit Intervals and Recruit Buildings AIV Build Steps.
+- **[SQS] Sneaky Quick Swap (10 + x AP):** Swap two Single-Unit-Slots, by unit type and unit amount, where A + B is the amounts of units of both slots combined and x = abs(A + B - 10) / 2.
+- **[ILS] Increase Lord Strength (50 AP):** Increase Lord strength to 2.
+- **[AST] Adjust Starting Troops (75 AP):** Adjust Starting Troops in bounds of unlocked troop types, up to a maximum of 15.
+- **[GPT] Great Philanthropist (x AP):** Give x amount of Ascension Points to another AI.
+- **[BBB] Big Beautiful Bill (up to 25% off):** Buy 4 Ascension Change Options and get the cheapest one for free. (Note: this can be split among multiple purchases for multiple AIs).
+
+For a detailed overview of all options, please refer to the official **[Ascension Change Options Spreadsheet](https://docs.google.com/spreadsheets/d/1l8Ec1E-8jLa6KuQa6udAQWffidRXIl2_H3PBQ8jS_Ew/edit?usp=sharing)**.
+
+All adjustments must be finalized at least one day before the first playday of the round begins.
 
 __Examples:__
-For example, to replace the melee sortie units (previously 10 spearmen) with 10 assassins for an AI that doesn't have a mercenary post, the following options are required:  
-[1] Reduce spearmen to 0 (10 AP)  
-[3] Add assassins to the repertoire (20 AP)  
-[2] Add a new slot (since Melee Sorties is now 0): 10 assassins to Melee Sorties (15 AP)  
-[8] Unlock mercenary post (15 AP)  
-[7] Add mercenary post to the AIV (10 AP)  
-In total, this would cost **70 AP**.  
 
-To give an AI a proper bread economy it didn't have before:  
-[4] Increase MaxFarms by 3 (3 x 4 AP)  
-[5] Change Farm Slot 1 and 2 to wheat farms (2 x 8 AP)  
-[6] Add 2 more AIV woodcutter's huts (2 x 5 AP)  
-[8] Unlock mill and bakery (2 x 15 AP)  
-[6] Place one mill and 8 bakeries (9 x 5 AP)  
-In total, this would cost **113 AP**.  
+**Example 1: Swapping Sortie Troops**
+To replace the melee sortie units (let's assume it was 10 spearmen) with 10 assassins for an AI that doesn't have a mercenary post, the following options are required:
+- **[UUT] Unlock Unittype (20 AP):** Introduce assassins to the AI's repertoire.
+- **[UBT] Unlock Buildingtype (15 AP):** Unlock the Mercenary Post to recruit assassins.
+- **[CBC] Castle Basic Change (10 AP):** Add one Mercenary Post to the AIV castle plan.
+- **[UCC] Unit Count Change x2 (10 AP):** Reduce the original spearmen slot by 10 to empty it.
+- **[AUS] Add Unit Slot (10 AP):** Add a new unit slot for assassins, which starts with up to 5 units.
+- **[UCC] Unit Count Change (5 AP):** Increase the new assassin slot by 5 more units to reach the target of 10.
 
-To add a second outer bailey to an AI's castle:  
-[7] Add another large gatehouse with a drawbridge (2 x 10 AP)  
-[7] Place 78 sections of wall or crenelated wall (8 x 10 AP)  
-[7] Add 22 sections of moat (3 x 10 AP)  
-This would amount to a total cost of **130 AP**.  
+In total, this would cost **70 AP**.
+
+---
+
+**Example 2: Adding a Bread Economy**
+To give an AI a proper bread economy it didn't have before, assuming it needs 3 more farms, wheat capability, 2 more woodcutters, mills, and bakeries:
+- **[BBC] Behaviour Basic Change x3 (15 AP):** Increase MaxFarms by 3 and change two Farm Slots to wheat.
+- **[VBC] Village Basic Change x2 (10 AP):** Add 2 more AIV woodcutter's huts.
+- **[UBT] Unlock Buildingtype x2 (30 AP):** Unlock the mill and the bakery.
+- **[VBC] Village Basic Change x9 (45 AP):** Place one mill and 8 bakeries in the AIV.
+
+In total, this would cost **100 AP**.
+
+---
+
+**Example 3: Building a Second Bailey**
+To add a second outer bailey to an AI's castle, consisting of a gatehouse, a drawbridge, 78 wall sections, and 22 moat sections:
+- **[CBC] Castle Basic Change x2 (20 AP):** Add one large gatehouse and one drawbridge.
+- **[CBC] Castle Basic Change x4 (40 AP):** Place 78 sections of wall (4 purchases of up to 20 tiles).
+- **[CBC] Castle Basic Change x2 (20 AP):** Place 22 sections of moat (2 purchases of up to 20 tiles).
+
+This would amount to a total cost of **80 AP**.
+
+---
+
+**Example 4: Swapping and Boosting Attack Squads**
+To swap the `AttUnitVanguard` slot (10 European Archers) with the `SortieUnitRanged` slot (20 Crossbowmen) and then add 20 more units to the new Vanguard slot.
+- **[SQS] Sneaky Quick Swap (20 AP):** Swap the two slots. The cost is calculated as `10 + abs(A + B - 10) / 2`, which is `10 + abs(10 + 20 - 10) / 2 = 20 AP`.
+    - *Result after swap: `AttUnitVanguard` now contains 20 Crossbowmen, and `SortieUnitRanged` now contains 10 European Archers.*
+- **[UCC] Unit Count Change x4 (20 AP):** Increase the `AttUnitVanguard` slot by 20 units (4 purchases of +5 units).
+    - *Result after boost: `AttUnitVanguard` now contains 40 Crossbowmen.*
+
+This entire operation would cost a total of **40 AP**. 
 
 ## V. Get Involved
 
