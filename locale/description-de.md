@@ -97,7 +97,7 @@ __Phase 2:__ Für jede dieser Challenges gibt es für die **besten N KIs bzw. Te
 - **Headhunter:** insgesamt in der Phase die meisten Kills gesammelt. Bei Gleichstand zählt die akkumulierte Ingamezeit für alle Kills.
 
 __Abschlussphase:__
-Hier geht es nochmal um alles! Jedes der Kriterien wird nach Abschluss aller KI-Kämpfe gewertet.
+Hier geht es nochmal um alles! Jedes der Kriterien wird nach Abschluss aller KI-Kämpfe gewertet und an die besten drei KIs je ein BP vergeben.
 - **Ascended:** über den Verlauf des gesamten Turniers die meisten Ascension-Punkte verdient
 - **Kingslayer:** ein einzelnes Spiel mit dem größten Punkterückstand gewonnen
 (Wird bei Gleichstand mehrfach vergeben!)

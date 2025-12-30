@@ -1,0 +1,19 @@
+{
+  "name": "Stark",
+  "description": "This is the AI of the character Stark from the anime 'Frieren: Beyond Journey's End'",
+  "author": "SolidPangolin",
+  "link": {},
+  "version": "1.0.0",
+  "defaultLang": "en",
+  "supportedLang": ["en"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+}

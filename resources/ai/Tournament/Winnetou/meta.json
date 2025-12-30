@@ -1,0 +1,19 @@
+{
+  "name": "Winnetou",
+  "description": "Das berühmte und verehrte Oberhaupt der Apachen, welche die Gebiete am Rio Pecos ihr eigen nennen. Von seinem Mut und Edelmut erzählt man sich bei Freund und Feind. Rechtschaffende Seelen würden mit ihm nie die Feindschaft suchen, woran sie auch gut tun, denn er ist ein tapferer und erfahrener Krieger.",
+  "author": "S.martin",
+  "link": "...",
+  "version": "1.0.0",
+  "defaultLang": "de",
+  "supportedLang": ["de"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+}

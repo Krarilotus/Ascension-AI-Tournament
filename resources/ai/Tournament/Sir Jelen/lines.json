@@ -1,0 +1,52 @@
+{
+  "ai_name"      : "Sir Jelen",
+
+  "title_1"      : "\"Der Turbo-Opa\"",
+  "title_2"      : "\"Der Alte\"",
+  "title_3"      : "\"Der Hirsch\"",
+  "title_4"      : "\"Der Steuereintreiber\"",
+  "title_5"      : "\"Der schwarze Mönch\"",
+  "title_6"      : "\"Der Heitere\"",
+  "title_7"      : "\"Der Gnädige\"",
+  "title_8"      : "\"Der Wetterfrosch\"",
+
+  "description"  : "Sir Jelen ist großzügig und gut darin bewandert Bündnisse zu schließen. Er begann schon in seiner Jugend eine christliche Gemeinde im Osten aufzubauen. Er ist ein Gegner, den man nicht aus den Augen verlieren sollte. Sein Alter macht sich aber hin und wieder bemerkbar.",
+
+  "unknown_1"    : "(Sir Jelen)",
+  "taunt_1"      : "Heute, mit der Hilfe Gottes, wird eure Herrschaft enden!",
+  "taunt_2"      : "Ich kann euer darsein nicht dulden und werde euch mit aller Kraft loswerden!",
+  "taunt_3"      : "Dieser Tag, diese Schlacht, meine Männer werden über euer Schiksal entscheiden!",
+  "taunt_4"      : "Ich sehe nicht wie ihr diesen Kampf noch gewinnen wollt. Gebt auf solange ihr noch könnt!",
+  "anger_1"      : "Eure Banditen werden meine Assasinen nicht kommen sehen!",
+  "anger_2"      : "Haltet ihr es würklich für nötig euch an Bauern zu profelieren?",
+  "plead"        : "Diese bedauernswerte Niederlage werde ich wohl leider akzeptieren müssen.",
+  "nervous_1"    : "Ihr besucht mich häufiger als meine Enkel!",
+  "nervous_2"    : "Gott steh uns bei!",
+  "victory_1"    : "Eure Belagerung ist gescheitert. Ich hoffe die restlichen eurer Männer werden unter meiner Hand besser arbeiten als sie gekämpft haben.",
+  "victory_2"    : "Nicht schlecht, aber mein Gegenschlag wird noch viel stärker sein!",
+  "victory_3"    : "Dies ist nur ein weiterer meiner Siege. Ihr habt denoch gut gekämpft.",
+  "victory_4"    : "Meine Männer sind wahrlich famos trainiert! Unser Sieg war unvermeitlich!",
+  "request"      : "Zeigt mal ein wenig Nächstenliebe und sendet uns benötigte Güter.",
+  "thanks"       : "Ich hab zu danken. Eure Hilfsgüter werden uns gute Dienste erweisen!",
+  "ally_death"   : "Unseren vorzeitigen Abschied bedauere ich sehr. Den Rest muss ich wohl euch überlassen. Viel Glück!",
+  "congrats"     : "Gut gemacht, Unser harter Glaube führt uns zum Sieg!",
+  "boast"        : "Wollt ihr noch Ablassbriefe [kaufen]?",
+  "help"         : "Ich könnte jetzt wirklich Hilfe gebrauchen, mein treuer Freund!",
+  "extra"        : "Dummer Bengel.",
+  "kick_player"  : "21",
+  "add_player"   : "22",
+  "siege"        : "Auf in die Schlacht!",
+  "no_attack_1"  : "Wir sollten nichts überstürtzen!",
+  "no_attack_2"  : "Der Zeitpunkt ist schlecht gewählt! Ich rate, dass ihr euch auch noch einwenig geduldet.",
+  "no_help_1"    : "Ich bedauere zutiefst, dass ich euch dieses mal nicht beistehen kann.",
+  "no_help_2"    : "Im Moment kann ich nur für euch beten!",
+  "no_sent"      : "Tut mir leid. Meine Händler haben sich leider verlaufen.",
+  "sent"         : "Ich bin mal so gnädig und sende euch eure Güter.",
+  "team_winning" : "Unser Bündnis trägt Früchte. Auf unseren Sieg muss ich zum Glück nicht mehr alzu lange warten.",
+  "team_losing"  : "Nur Mut! Gott steht uns bei! Wir werden nicht verlieren, sondern siegen!",
+  "help_sent"    : "Meine schwarzen Mönche sind auf dem Weg!",
+  "will_attack"  : "Ich habe bei euren Plänen keine Einwände. Meine Männer sind auf dem Weg."
+
+}
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "Markgraf",
+  "description": "no",
+  "author": "Zilwar",
+  "link": "no",
+  "version": "1.5.1",
+  "defaultLang": "de",
+  "supportedLang": ["de"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+}

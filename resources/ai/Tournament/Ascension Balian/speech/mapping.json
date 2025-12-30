@@ -1,0 +1,8 @@
+{
+  "message_from" : "General_Message_BA.wav",
+  "add_player"   : "add_player_BA.wav",
+  "kick_player"  : "kick_player_BA.wav",
+  "nervous_2"    : "nervous_2_BA.wav",
+  "plead"        : "plead_BA.wav",
+  "victory_4"    : "victory_4_BA.wav"
+}

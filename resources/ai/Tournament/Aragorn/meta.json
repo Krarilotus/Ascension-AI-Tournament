@@ -1,0 +1,18 @@
+{
+  "name": "Aragorn",
+  "description": "Aragorn aus dem Herrn der Ringe",
+  "author": "Nebelpanda",
+  "version": "2.5.7",
+  "defaultLang": "de",
+  "supportedLang": ["de"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+}

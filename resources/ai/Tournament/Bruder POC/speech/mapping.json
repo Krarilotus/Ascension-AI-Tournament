@@ -1,0 +1,23 @@
+{
+  "message_from" : "General_Message.wav",
+  "taunt_1"      : "taunt.wav",
+  "taunt_2"      : "taunt2.wav",
+  "taunt_3"      : "taunt3.wav",
+  "taunt_4"      : "taunt.wav",
+  "anger_1"      : "anger_01.wav",
+  "anger_2"      : "Anger_02.wav",
+  "plead"        : "death.wav",
+  "nervous_2"    : "nervous.wav",
+  "victory_4"    : "victory.wav",
+  "request"      : "req.wav",
+  "thanks"       : "thanks.wav",
+  "congrats"     : "ally kill.wav",
+  "help"         : "help.wav",
+  "kick_player"  : "kick.wav",
+  "add_player"   : "add_player.wav",
+  "no_attack_1"  : "noattack.wav",
+  "no_attack_2"  : "noattack2.wav",
+  "no_help_1"    : "nohelp.wav",
+  "no_help_2"    : "nohelp2.wav",
+  "will_attack"  : "will_attack.wav"
+}

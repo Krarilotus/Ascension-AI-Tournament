@@ -1,0 +1,21 @@
+{
+  "name": "Katharina",
+  "description": "Katharina II., genannt Katharina die Große. Kaiserin über Russland und Herrin von Jever. Sie ist die einzige Herrscherin, der in der Geschichtsschreibung der Beiname die Große verliehen wurde. Jedoch kämpfte sie stets mit einem üblen Gerücht, welches ihre Widersacher verbreiteten.",
+  "author": "Nanami",
+  "link": "https://github.com/Nanami-Stronghold/Katharina-1.0.0-.git",
+  "version": "1.0.0",
+  "defaultLang": "de",
+  "supportedLang": ["de"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+
+}
+

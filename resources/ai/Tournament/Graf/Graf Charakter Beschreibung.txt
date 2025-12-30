@@ -1,0 +1,47 @@
+# Graf Werner von Klingenberg
+
+## Charakterkonzept
+
+Zeit: frühes Mittelalter
+-> keine Armbrüste & Triboke
+
+Ort: Ost-Frankenreich (heutiges Deutschland)
+-> keine arabischen Truppen
+
+Stand: Graf (Mittelhoher Adliger)
+-> wenige Ritter, an die er Dörfer als Lehen vergeben hat (Schwertkämpfer & Ritter)
+-> wenige Berufssoldaten (Streitkolbenkämpfer)
+-> muss viele Bauern als schlecht (oder gar nicht) ausgebildete Miliz einberufen (Speerträger, Bogenschützen, Schleuderschützen, Sklaven)
+
+Taktik:
+Die Miliz wird vorausgeschickt, um die Hauptlast des Angriffs zu tragen. Die Ritter halten sich zunächst zurück, um im entscheidenden Moment in die Bresche zu stürmen und den Sieg davon zu tragen.
+
+Burgdesign: Motte und Vorburg
+Kernburg:
+Gebäude für Graf, Gäste und Angestellte
+- Burgkapelle
+- Brunnen
+- Stall
+Vorburg:
+Palisade um das Dorf
+- Marktplatz vor der Kirche
+- gepflasterte Hauptstraßen (nur Burg 1)
+
+Charakter:
+Er versucht, seinen Untertanen ein guter Herrscher zu sein und diese vor den Übergriffen seiner Nachbarn zu beschützen. Um militärisch effektiv zu sein, muss er aber notgedrungen seine eigenen Bauern in den Krieg schicken, wo sie zu Hunderten sterben. Die Verluste der vielen Männern unter seinem Kommando führen mit der Zeit zu Zynismus, unter dem er die Ideale der Ritterlichkeit nach und nach aufgibt.
+
+Vorgeschichte:
+In seiner ersten Schlacht suchte er den ehrenvollen Kampf - und fand statt dessen ein undurchsichtiges Getümmel, in dem er zu Boden ging, sein Auge verlor und beinahe gefangen genommen worden wäre.
+Seitdem ist er vorsichtiger und kommandiert seine Männer lieber von hinten. Auch seine Ritter setzt er nur noch ein, nachdem seine Feinde zuerst von der Miliz geschwächt wurden.
+
+## KI Design Kriterien
+
+Aktives Verhalten:
+- möglichst frühe und starke Angriffe
+- umfangreiche Raids, Sorties und Außenpatroullien
+- starke Wirtschaft
+
+Faire Verteidigung:
+- jeder Durchbruch eröffnet einen direkten Bergfriedzugang
+- sinnvolle Torhäuser für Assassinen und Ansatzpunkte für Belagerungstürme
+- Feuer, Mangen und Armbrustschützen nur maßvoll (hier: gar nicht) einsetzen

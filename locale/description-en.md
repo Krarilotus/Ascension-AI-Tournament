@@ -43,7 +43,7 @@ A sorted preference list of the maps available in the plugin is also mandatory f
 
 ## III. Tournament Procedure
 
-Matches always end after 50 years at the latest, resulting in a draw! This limit is 60 years for maps with Dummy AIs and 75 Years for 2 vs 2 Matches.
+Games always end after 50 years at the latest, resulting in a draw! This limit is 60 years for maps with Dummy AIs and 75 Years for 2 vs 2 Games.
 
 ### Schedule
 __Introductory Phase:__ There will be an introductory round where all AIs are showcased in a brief presentation before the actual tournament begins.
@@ -72,24 +72,24 @@ In Free-for-All (FFA), the following VPs will be awarded based on placement:
 Additionally, for each phase, there are the following bonus challenges that award **Bonus Points (BP)**. These are equivalent to Victory Points but do not influence matchmaking:
 
 __Phase 1:__ For each of these challenges, the **top N AIs** of the phase in each category will receive one point, where **N is the number of rounds** in this phase.
-- **Master Chef:** produced the most food in a single match
-- **First Blood:** killed an opponent in the fewest months after the start of a match
-- **Spammer:** achieved the highest ratio of (Troops Recruited / Gold Earned) in a single match
-- **Raidmaster:** destroyed the most buildings in a single match
-- **MVP:** killed the most troops in a single match
-- **Eco-Freak:** produced the fewest wood planks in a single match
-- **Cunning:** achieved the largest difference in a match from:
+- **Master Chef:** produced the most food in a single game
+- **First Blood:** killed an opponent in the fewest months after the start of a game
+- **Spammer:** achieved the highest ratio of (Troops Recruited / Gold Earned) in a single game
+- **Raidmaster:** destroyed the most buildings in a single game
+- **MVP:** killed the most troops in a single game
+- **Eco-Freak:** produced the fewest wood planks in a single game
+- **Cunning:** achieved the largest difference in a game from:
   `(Enemy Troops Died) - (Own Troops Killed)` where maps with dummy rats are excluded!
 - **Sacrificial Lamb:** lost the most buildings accumulated over the entire phase
-- **Showmaster:** had a match duration closest to the average of all matches in this phase
+- **Showmaster:** had a game duration closest to the average of all games in this phase
 
-__Phase 2:__ For each of these challenges, the **top N AIs or teams** in each category will receive one point, where **N is the number of rounds** this category affects. Furthermore, individual match goals from **Phase 1** can be awarded **once more** for breaking a record!
-- **Martyr:** (2 vs. 2) in a winning match, was the first AI to be defeated
+__Phase 2:__ For each of these challenges, the **top N AIs or teams** in each category will receive one point, where **N is the number of rounds** this category affects. Furthermore, individual game goals from **Phase 1** can be awarded **once more** for breaking a record!
+- **Martyr:** (2 vs. 2) in a winning game, was the first AI to be defeated
 - **Hermit:** (2 vs. 2) smallest combined population among all winning teams and all losing teams (Note: Only one BP per AI per team will be awarded in this phase).
-- **Teamwork:** (2 vs. 2) had the ratio (Troops Produced AI 1 / Troops Produced AI 2) closest to 1 in a single match
-- **Building Maintenance:** (2 vs. 2) highest positive result in a match for the difference of:
+- **Teamwork:** (2 vs. 2) had the ratio (Troops Produced AI 1 / Troops Produced AI 2) closest to 1 in a single game
+- **Building Maintenance:** (2 vs. 2) highest positive result in a game for the difference of:
   `Total Buildings Destroyed - Total Buildings Lost`
-- **Punching Bag:** (FFA) survived the longest of all matches, but died first in their own match
+- **Punching Bag:** (FFA) survived the longest of all games, but died first in their own game
 - **Poacher:** (FFA) built the fewest troops and still won
 - **King of Dust:** (FFA) the highest difference between
   `Crowns - Kills`
@@ -99,9 +99,9 @@ __Phase 2:__ For each of these challenges, the **top N AIs or teams** in each ca
 - **Headhunter:** accumulated the most kills in total during the phase. In case of a tie, the accumulated in-game time for all kills will be the tiebreaker.
 
 __Final Phase:__
-This is the grand finale! Each of these criteria will be evaluated after all AI matches are completed.
+This is the grand finale! Each of these criteria will be evaluated after all AI games are completed and awarded to the best 3 AIs of each category.
 - **Ascended:** earned the most Ascension Points over the course of the whole tournament
-- **Kingslayer:** won a single match with the largest point deficit
+- **Kingslayer:** won a single game with the largest point deficit
 (Awarded multiple times in case of a tie!)
 - **Superstar:** chosen by the audience from selected highlights (YouTube Poll). This honors the most epic highlight of the tournament.
 - **Ecstasy:** one BP for each of the three AIs whose introduction video received the most likes

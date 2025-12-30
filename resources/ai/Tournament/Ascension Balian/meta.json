@@ -1,0 +1,19 @@
+{
+  "name": "Ascension-Balian",
+  "description": "Die Balian Ki Aus den Kingdom of Heaven Paket von Gadiat0r für das Ascension Trunier von Xander 10 Alpha",
+  "author": "Gadiat0r",
+  "link": "",
+  "version": "1.4.1",
+  "defaultLang": "de",
+  "supportedLang": ["de", "en"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+}

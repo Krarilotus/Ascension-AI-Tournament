@@ -1,0 +1,12 @@
+Wissen zum Glänzen für die Caster:
+Allgemein:
+Sehr sehr aktive KI
+Handelt nicht mit Waffen, alles made in Ägypten
+Versucht mit seinen Armbrustsorties Feldüberlegenheit herzustellen
+Burg:
+Wohnt in einer wunderschönen Pyramide: 374 Treppensteps in der AIV
+Braucht keine AIV Holzfäller, baut 12 Holzfällerhütten bis Dez 1181
+Gastfreundlich: Defwalls bei 54 Verteidigungstruppen und benutzt kein Feuer
+Angriff:
+Testet den Gegner durch seine Handlanger (Speerkämpfer) im ersten Angriff, baut danach seine Hauptarmee aus
+Lässt in der Offensive berittene Bogenschützen und Arabische Schwertkämpfer im Gleichtakt gehen (als AttUnitMain eingestellt)

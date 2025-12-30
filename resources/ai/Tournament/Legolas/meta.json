@@ -1,0 +1,19 @@
+{
+  "name": "Legolas",
+  "description": "https://github.com/LordPh0enix/KI-Paket-Lord-Phoenix",
+  "author": "Lord_Phoenix",
+  "link": "",
+  "version": "1.0.0",
+  "defaultLang": "de",
+  "supportedLang": ["de"],
+  "switched": {
+    "binks": true,
+    "speech": true,
+    "aic": true,
+    "aiv": true,
+    "lord": true,
+    "startTroops": true,
+    "lines": true,
+    "portrait": true
+  }
+}

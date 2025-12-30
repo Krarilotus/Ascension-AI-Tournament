@@ -240,12 +240,20 @@ config-sparse:
           enabled:
             contents:
               suggested-value: true
+        ai_tethers:
+          enabled:
+            contents:
+              suggested-value: false    
     graphicsApiReplacer:
       config:
         graphic:
           vsync:
             contents:
-              suggested-value: true
+              suggested-value: false
+        window:
+          continueOutOfFocus:
+            contents:
+              suggested-value: render
     running-units:
       config:
         macemen:

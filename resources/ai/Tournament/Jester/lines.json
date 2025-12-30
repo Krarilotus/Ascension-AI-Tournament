@@ -1,0 +1,62 @@
+{
+  "ai_name"      : "Jester",
+
+  "title_1"      : "\"Duc Chapeau\"",
+  "title_2"      : "\"The Duke of Foolsbury\"",
+  "title_3"      : "\"The Painted Fool\"",
+  "title_4"      : "\"Lord Jinglecap\"",
+  "title_5"      : "\"The Earl of Jingles\"",
+  "title_6"      : "\"Baron von Tumble\"",
+  "title_7"      : "\"Count Chucklehead\"",
+  "title_8"      : "\"The Earl of Motleybottom\"",
+
+  "description"  : "Once a fool, now a fiend. The Jester served long as Pig’s court clown, until cruelty and beatings drove him into exile. Twisted by humiliation, he returns with an army of mockery and malice. His soldiers, inspired by Pig and shaped by years of watching battles, march to avenge their broken master. Beware – the fool no longer plays for laughs.",
+
+  "unknown_1"    : "Jester",
+  "taunt_1"      : "Hhhrngähähä! Dance, little peasants, dance! I’ll take your grain while you prance!",
+  "taunt_2"      : "I once jingled for Pig’s table… now I rattle at your gates! Hhhrrrngaha!",
+  "taunt_3"      : "The bells toll for you! Tinkle-tinkle, then crack! Hhhhnngrr!",
+  "taunt_4"      : "Your guards look bored… let me give them something to juggle – your bones!",
+  
+  "anger_1"      : "Mock me, will you? The fool bites back! Hhhrrraaagh!",
+  "anger_2"      : "No feast is complete without your screams on the menu! Ngghhhaha!",
+  
+  "plead"        : "No-no-no, don’t strike the fool! Mercy for a broken jester, hhhhnnnn!",
+  
+  "nervous_1"    : "Keep them away from my motley! They’ll tear the bells right off!",
+  "nervous_2"    : "Where did I put my mask? It hides the tears… and the fear, hrngghh...",
+  
+  "victory_1"    : "The Pig feasted on me… now I feast on you! Hhhhrrngahaha!",
+  "victory_2"    : "Your army vanished? Don’t tell me you all ran to the circus!",
+  "victory_3"    : "Dance with me again, I love the sound of snapping bones!",
+  "victory_4"    : "Ngghhhaha! The jest is on you this time!",
+  
+  "request"      : "Send me men! A jester’s jokes fall flat without an audience!",
+  "thanks"       : "Aha! More toys for my stage! Your gift is most amusing!",
+  
+  "ally_death"   : "Down goes another puppet… the strings always snap in the end!",
+  "congrats"     : "Marvelous! A show worth applause – even from a fool like me!",
+  "boast"        : "Ngghhrr! The fool commands, and still the armies obey!",
+  "help"         : "Do not leave me to die in silence! The bells beg for battle!",
+  "extra"        : "A fool’s work is never done… nor his hunger for revenge!",
+  
+  "kick_player"  : "unused",
+  "add_player"   : "unused",
+  
+  "siege"        : "Battering rams, catapults, oh what a carnival of destruction!",
+  
+  "no_attack_1"  : "You disappoint me… I expected a bigger show!",
+  "no_attack_2"  : "Afraid to fight? Then come juggle with me instead, hhhhnnngh!",
+  
+  "no_help_1"    : "Left alone, abandoned again… just like that swine left me…",
+  "no_help_2"    : "The bells grow silent… no ally to save the fool this time.",
+  
+  "no_sent"      : "A fool’s pockets are empty… nothing to send.",
+  "sent"         : "A little gift wrapped in motley! May it amuse you!",
+  
+  "team_winning" : "Look! Even the fool’s side is winning! Truly the world has gone mad!",
+  "team_losing"  : "We fall, we crumble, and the bells toll for us all…",
+  
+  "help_sent"    : "Hhhhrnggh! I sent what I could… scraps from a fool’s banquet!",
+  "will_attack"  : "Oh yes! The curtain rises, and the slaughter begins!"
+}

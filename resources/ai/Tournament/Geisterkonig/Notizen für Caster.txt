@@ -1,0 +1,35 @@
+In dieser Datei findet ihr ein paar interessante Fakten, Hintergrundinformationen und Gedanken, die euch beim Kommentieren der KI-Kämpfe helfen können.
+
+
+1. Film-/Buch-Lore
+
+- der Geisterkönig ist der König der Toten, inspiriert aus „Herr der Ringe“
+- er führt die Stämme, die nach ihrer Fahnenflucht vor der Schlacht am Schicksalsberg von Isildur verflucht wurden
+- seit dem können Sie keine Ruhe finden und die Welt nicht verlassen können
+- diese Geister lebten in den kargen Bergen am Fluss Anduin (in Schluchten, Höhlen und Tunnel)
+- über die Zeit errichteten sie eine Geisterstadt tief unter den Bergen
+- Aragorn (Isildurs Erbe) erlöst sie später nach ihrer Hilfe in der Schlacht um Minas Tirith 
+
+2. Übertragung der Lore zur KI
+
+- um jede Burg zieht sich der Anduin mit samt seiner Zuflüssen.
+- das Land ist karg; Daher können auf den Berghängen nur Rinder grasen und das wenige halbwegs fruchtbare Land ist kostbar und muss so effektiv wie möglich
+genutzt werden --> hauptsächlich (8) Käsefarmen und nur 2 Getreidefarmen
+- Gold verdienst durch Steinverkauf (4 Steinbrüche); in den Bergen gibt es ja genug Stein
+- jede seiner Burgen weist einen Bergpfad auf. Dieser führt in die Halle der Untoten, in der Eindringlinge von den Geistern eingekreist werden.
+Aragorn, Legolas und Gimli wurden hier mit Schädeln überflutet --> Efendi-Eske-Slingerverteidigung 
+- Angriffe erfolgen mit großen, schnellen Horden; sie wirken angsterregend, sind aber wegen der vielen Steinschleuderer relativ harmlos.
+
+3. Die KI im Gesamtbild / Gameplay
+
+- Main-Truppen Angriff: Streitkolbenkämpfer + Slinger
+- Main-Truppen Verteidigung: Slinger + Armbrustschützen
+- Unterstützungstruppen: Speerträger + Assassinen
+- Spielstil: defensive Mid-Game KI, zügiger Aufbau mit ausgewogener Balance zwischen Wirtschaft, Angriff, Verteidigung und Überfällen
+- Stärken: effektiv gegen Early-Game-KIs und Gegner, die auf eine starke Hauptarmee setzen; Steinschleuderer sind sehr effektiv gegen konzentrierte Angriffe
+- Schwächen: schwach gegen Late-Game-KIs, die ihn wirtschaftlich abhängen und Gegner die mit vielen Schützen oder Katapulten/Feuerballisten seine 
+Steinschleuderer ausschalten, sowie KIs, die durch ständiges Raiden seine Steinzufuhr unterbinden 
+
+
+
+PS: Bereits angesprochene Punkte bitte markieren, damit die anderen Caster wissen, was bereits verwendet wurde.
